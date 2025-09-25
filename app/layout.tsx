@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
+import Image from 'next/image'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,19 +25,21 @@ export default function RootLayout({
         <nav className="bg-white shadow-sm border-b border-gray-200">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
-              <a href="/" className="flex items-center space-x-3">
-                <img 
+              <Link href="/" className="flex items-center space-x-3">
+                <Image 
                   src="/layr-logo.jpeg" 
                   alt="Layr+ Logo" 
+                  width={40}
+                  height={40}
                   className="h-10 w-auto rounded"
                 />
                 <span className="text-xl font-bold text-gray-900">Layr+</span>
-              </a>
+              </Link>
               <div className="flex space-x-6">
-                <a href="/" className="text-gray-600 hover:text-gray-900">Home</a>
-                <a href="/ehr" className="text-gray-600 hover:text-gray-900">EHR System</a>
-                <a href="/front-desk" className="text-gray-600 hover:text-gray-900">Front Desk</a>
-                <a href="/patient-portal" className="text-gray-600 hover:text-gray-900">Patient Portal</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
+                <Link href="/ehr" className="text-gray-600 hover:text-gray-900">EHR System</Link>
+                <Link href="/front-desk" className="text-gray-600 hover:text-gray-900">Front Desk</Link>
+                <Link href="/patient-portal" className="text-gray-600 hover:text-gray-900">Patient Portal</Link>
               </div>
             </div>
           </div>

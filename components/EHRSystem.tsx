@@ -69,7 +69,7 @@ const EHRSystem: React.FC<EHRSystemProps> = ({ patientId }) => {
         return <InsuranceBenefitsPanel />;
 
       case 'medications':
-        return <MedicationSearch />;
+        return <MedicationSearch patientId={patientId} />;
 
       case 'documents':
         return <DocumentsPanel />;

@@ -83,7 +83,7 @@ export default function FrontDeskPage() {
       status: 'registered',
       createdAt: new Date().toISOString(),
       patientLink,
-      qrCode
+      qrCode: qrCode || undefined
     };
 
     setPatients(prev => [patient, ...prev]);

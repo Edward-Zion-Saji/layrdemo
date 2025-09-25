@@ -8,7 +8,11 @@ import MedicationSearch from '../prescription-tool/MedicationSearch';
 import DocumentsPanel from './DocumentsPanel';
 import { User, Calendar, FileText, AlertTriangle, Activity, Settings } from 'lucide-react';
 
-const EHRSystem: React.FC = () => {
+interface EHRSystemProps {
+  patientId: string;
+}
+
+const EHRSystem: React.FC<EHRSystemProps> = ({ patientId }) => {
   const { state } = useDemo();
   const [activeTab, setActiveTab] = useState('overview');
 
@@ -65,7 +69,7 @@ const EHRSystem: React.FC = () => {
         return <InsuranceBenefitsPanel />;
 
       case 'medications':
-        return <MedicationSearch />;
+        return <MedicationSearch patientId={patientId} />;
 
       case 'documents':
         return <DocumentsPanel />;

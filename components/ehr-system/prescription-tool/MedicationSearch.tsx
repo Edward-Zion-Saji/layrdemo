@@ -8,11 +8,7 @@ import { simulateProcessingDelay } from '@/lib/utils';
 import PharmacyList from './PharmacyList';
 import PrescriptionList from './PrescriptionList';
 
-interface MedicationSearchProps {
-  patientId: string;
-}
-
-const MedicationSearch: React.FC<MedicationSearchProps> = ({ patientId }) => {
+const MedicationSearch: React.FC = () => {
   const { state, dispatch } = useDemo();
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState<any[]>([]);
