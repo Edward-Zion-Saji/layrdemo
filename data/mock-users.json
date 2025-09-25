@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "U001",
+      "email": "hypertension.demo@insurfetch.com",
+      "password": "hypertension123",
+      "patient_id": "P011",
+      "name": "John Smith",
+      "dob": "1970-05-15",
+      "phone": "(555) 111-2222",
+      "address": {
+        "street": "456 Hypertension Lane",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101"
+      },
+      "insurance": {
+        "carrier": "Anthem Blue Cross Blue Shield",
+        "member_id": "ABC111222333",
+        "group_number": "GRP011",
+        "plan_type": "PPO Gold",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "medical_conditions": ["Hypertension", "Hyperlipidemia", "Obesity", "Family history of heart disease"],
+      "current_medications": ["Lisinopril", "Atorvastatin", "Metformin"],
+      "fracture_risk": "Low",
+      "primary_condition": "Hypertension Management"
+    },
+    {
+      "id": "U002",
+      "email": "ankle.fracture@insurfetch.com",
+      "password": "ankle456",
+      "patient_id": "P012",
+      "name": "Maria Garcia",
+      "dob": "1985-08-22",
+      "phone": "(555) 333-4444",
+      "address": {
+        "street": "789 Fracture Street",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108"
+      },
+      "insurance": {
+        "carrier": "UnitedHealthcare",
+        "member_id": "UHC444555666",
+        "group_number": "GRP012",
+        "plan_type": "HMO Silver",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "medical_conditions": ["Ankle fracture", "Osteopenia", "Previous sports injury", "Moderate fracture risk"],
+      "current_medications": ["Calcium Carbonate", "Vitamin D3", "Ibuprofen"],
+      "fracture_risk": "Moderate",
+      "primary_condition": "Ankle Fracture Recovery",
+      "recent_injury": "Right ankle fracture (2024-03-10)",
+      "surgery_required": false,
+      "cast_removal_date": "2024-04-15"
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "ehr_data": {
+    "P001": {
+      "visits": [
+        {
+          "id": "V001",
+          "date": "2024-03-15",
+          "provider": "Dr. Sarah Williams, MD",
+          "chief_complaint": "Annual physical examination",
+          "diagnosis": ["Hypertension", "Hyperlipidemia"],
+          "medications_prescribed": ["Atorvastatin", "Lisinopril"],
+          "follow_up_required": true
+        },
+        {
+          "id": "V002",
+          "date": "2024-02-28",
+          "provider": "Dr. Michael Brown, MD",
+          "chief_complaint": "Follow-up for blood pressure management",
+          "diagnosis": ["Hypertension"],
+          "medications_prescribed": ["Lisinopril"],
+          "follow_up_required": false
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A001",
+          "type": "coverage",
+          "severity": "low",
+          "message": "Atorvastatin requires prior authorization renewal in 30 days",
+          "medication": "Atorvastatin",
+          "action_required": false
+        }
+      ]
+    },
+    "P002": {
+      "visits": [
+        {
+          "id": "V003",
+          "date": "2024-03-10",
+          "provider": "Dr. Jennifer Lee, MD",
+          "chief_complaint": "Diabetes management",
+          "diagnosis": ["Type 2 Diabetes", "Obesity"],
+          "medications_prescribed": ["Metformin", "Ozempic"],
+          "follow_up_required": true
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A002",
+          "type": "prior_auth",
+          "severity": "high",
+          "message": "Ozempic prior authorization required before prescribing",
+          "medication": "Ozempic",
+          "action_required": true
+        },
+        {
+          "id": "A003",
+          "type": "cost",
+          "severity": "medium",
+          "message": "High copay for Ozempic - consider alternatives",
+          "medication": "Ozempic",
+          "action_required": false
+        }
+      ]
+    },
+    "P003": {
+      "visits": [
+        {
+          "id": "V004",
+          "date": "2024-03-12",
+          "provider": "Dr. Robert Garcia, MD",
+          "chief_complaint": "Chest pain evaluation",
+          "diagnosis": ["Atrial Fibrillation"],
+          "medications_prescribed": ["Xarelto"],
+          "follow_up_required": true
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A004",
+          "type": "interaction",
+          "severity": "high",
+          "message": "Drug interaction warning: Xarelto + Aspirin",
+          "medication": "Xarelto",
+          "action_required": true
+        }
+      ]
+    },
+    "P004": {
+      "visits": [
+        {
+          "id": "V005",
+          "date": "2024-03-08",
+          "provider": "Dr. Lisa Chen, MD",
+          "chief_complaint": "Rheumatoid arthritis management",
+          "diagnosis": ["Rheumatoid Arthritis"],
+          "medications_prescribed": ["Humira"],
+          "follow_up_required": true
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A005",
+          "type": "prior_auth",
+          "severity": "high",
+          "message": "Humira prior authorization required",
+          "medication": "Humira",
+          "action_required": true
+        }
+      ]
+    },
+    "P005": {
+      "visits": [
+        {
+          "id": "V006",
+          "date": "2024-03-14",
+          "provider": "Dr. David Kim, MD",
+          "chief_complaint": "Depression follow-up",
+          "diagnosis": ["Major Depressive Disorder"],
+          "medications_prescribed": ["Prozac"],
+          "follow_up_required": true
+        }
+      ],
+      "alerts": []
+    },
+    "P006": {
+      "visits": [
+        {
+          "id": "V010",
+          "date": "2024-03-20",
+          "provider": "Dr. Margaret O'Brien, MD",
+          "chief_complaint": "Hip fracture follow-up and osteoporosis management",
+          "diagnosis": ["Osteoporosis", "Post-menopausal", "Previous hip fracture", "High fracture risk"],
+          "medications_prescribed": ["Alendronate", "Calcium Carbonate", "Vitamin D3"],
+          "follow_up_required": true,
+          "notes": "Patient requires bone density monitoring and fracture risk assessment"
+        },
+        {
+          "id": "V011",
+          "date": "2024-02-15",
+          "provider": "Dr. Robert Martinez, MD",
+          "chief_complaint": "Hip fracture emergency",
+          "diagnosis": ["Hip fracture", "Osteoporosis", "Fall risk"],
+          "medications_prescribed": ["Oxycodone", "Tylenol #3"],
+          "follow_up_required": true,
+          "notes": "Emergency surgery required, post-operative pain management needed"
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A010",
+          "type": "prior_auth",
+          "severity": "high",
+          "message": "Alendronate requires bone density scan documentation for coverage",
+          "medication": "Alendronate",
+          "action_required": true
+        },
+        {
+          "id": "A011",
+          "type": "coverage",
+          "severity": "medium",
+          "message": "Oxycodone requires prior authorization and opioid risk assessment",
+          "medication": "Oxycodone",
+          "action_required": true
+        }
+      ]
+    },
+    "P007": {
+      "visits": [
+        {
+          "id": "V012",
+          "date": "2024-03-18",
+          "provider": "Dr. Sarah Williams, MD",
+          "chief_complaint": "Severe osteoporosis management",
+          "diagnosis": ["Severe Osteoporosis", "Vertebral fractures", "Chronic kidney disease", "Very high fracture risk"],
+          "medications_prescribed": ["Prolia", "Calcium Carbonate", "Vitamin D3"],
+          "follow_up_required": true,
+          "notes": "Patient requires specialty pharmacy for Prolia administration"
+        },
+        {
+          "id": "V013",
+          "date": "2024-01-20",
+          "provider": "Dr. Michael Brown, MD",
+          "chief_complaint": "Vertebral fracture follow-up",
+          "diagnosis": ["L2 vertebral fracture", "Osteoporosis"],
+          "medications_prescribed": ["Alendronate", "Tramadol"],
+          "follow_up_required": true,
+          "notes": "Vertebral fracture healing, pain management required"
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A012",
+          "type": "prior_auth",
+          "severity": "high",
+          "message": "Prolia requires prior authorization and high fracture risk documentation",
+          "medication": "Prolia",
+          "action_required": true
+        },
+        {
+          "id": "A013",
+          "type": "specialty",
+          "severity": "medium",
+          "message": "Prolia must be dispensed through specialty pharmacy",
+          "medication": "Prolia",
+          "action_required": false
+        }
+      ]
+    },
+    "P008": {
+      "visits": [
+        {
+          "id": "V014",
+          "date": "2024-03-22",
+          "provider": "Dr. Jennifer Lee, MD",
+          "chief_complaint": "Osteopenia management with RA",
+          "diagnosis": ["Osteopenia", "Rheumatoid arthritis", "Corticosteroid use", "Moderate fracture risk"],
+          "medications_prescribed": ["Risedronate", "Calcium Carbonate", "Methotrexate"],
+          "follow_up_required": true,
+          "notes": "Long-term steroid use increases fracture risk, requires bone density monitoring"
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A014",
+          "type": "coverage",
+          "severity": "low",
+          "message": "Risedronate requires bone density scan documentation",
+          "medication": "Risedronate",
+          "action_required": false
+        }
+      ]
+    },
+    "P009": {
+      "visits": [
+        {
+          "id": "V015",
+          "date": "2024-03-25",
+          "provider": "Dr. David Thompson, MD",
+          "chief_complaint": "Post-surgical hip fracture management",
+          "diagnosis": ["Left hip fracture", "Osteoporosis", "Type 2 diabetes", "High fracture risk"],
+          "medications_prescribed": ["Risedronate", "Metformin", "Lisinopril", "Tramadol"],
+          "follow_up_required": true,
+          "notes": "Post-surgical recovery, requires pain management and osteoporosis treatment"
+        },
+        {
+          "id": "V016",
+          "date": "2024-01-15",
+          "provider": "Dr. Sarah Williams, MD",
+          "chief_complaint": "Hip fracture emergency",
+          "diagnosis": ["Left hip fracture", "Osteoporosis", "Fall risk"],
+          "medications_prescribed": ["Oxycodone", "Tylenol #3"],
+          "follow_up_required": true,
+          "notes": "Emergency surgery performed, post-operative care required"
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A015",
+          "type": "prior_auth",
+          "severity": "high",
+          "message": "Oxycodone requires prior authorization and opioid risk assessment",
+          "medication": "Oxycodone",
+          "action_required": true
+        },
+        {
+          "id": "A016",
+          "type": "coverage",
+          "severity": "medium",
+          "message": "Risedronate requires bone density scan documentation",
+          "medication": "Risedronate",
+          "action_required": false
+        }
+      ]
+    },
+    "P010": {
+      "visits": [
+        {
+          "id": "V017",
+          "date": "2024-03-28",
+          "provider": "Dr. Margaret O'Brien, MD",
+          "chief_complaint": "Severe osteoporosis with multiple fractures",
+          "diagnosis": ["Severe Osteoporosis", "Multiple vertebral fractures", "Kyphosis", "Very high fracture risk"],
+          "medications_prescribed": ["Forteo", "Calcium Carbonate", "Vitamin D3"],
+          "follow_up_required": true,
+          "notes": "Patient on Forteo therapy, 18 months remaining of 24-month lifetime limit"
+        },
+        {
+          "id": "V018",
+          "date": "2024-02-10",
+          "provider": "Dr. Robert Martinez, MD",
+          "chief_complaint": "Vertebral fracture management",
+          "diagnosis": ["T12 vertebral fracture", "Severe Osteoporosis"],
+          "medications_prescribed": ["Forteo", "Tramadol"],
+          "follow_up_required": true,
+          "notes": "Vertebral fracture healing, Forteo therapy continuation"
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A017",
+          "type": "prior_auth",
+          "severity": "high",
+          "message": "Forteo requires prior authorization and severe osteoporosis documentation",
+          "medication": "Forteo",
+          "action_required": true
+        },
+        {
+          "id": "A018",
+          "type": "lifetime_limit",
+          "severity": "high",
+          "message": "Forteo lifetime limit: 18 months remaining of 24-month maximum",
+          "medication": "Forteo",
+          "action_required": false
+        },
+        {
+          "id": "A019",
+          "type": "specialty",
+          "severity": "medium",
+          "message": "Forteo must be dispensed through specialty pharmacy",
+          "medication": "Forteo",
+          "action_required": false
+        }
+      ]
+    },
+    "P011": {
+      "visits": [
+        {
+          "id": "V019",
+          "date": "2024-03-30",
+          "provider": "Dr. Sarah Williams, MD",
+          "chief_complaint": "Hypertension management and medication adjustment",
+          "diagnosis": ["Hypertension", "Hyperlipidemia", "Obesity"],
+          "medications_prescribed": ["Lisinopril", "Atorvastatin", "Metformin"],
+          "follow_up_required": true,
+          "notes": "Blood pressure 145/92, needs medication adjustment. Patient reports good compliance with current regimen."
+        },
+        {
+          "id": "V020",
+          "date": "2024-02-15",
+          "provider": "Dr. Michael Brown, MD",
+          "chief_complaint": "Routine hypertension follow-up",
+          "diagnosis": ["Hypertension", "Hyperlipidemia"],
+          "medications_prescribed": ["Lisinopril", "Atorvastatin"],
+          "follow_up_required": true,
+          "notes": "Blood pressure improved to 138/85, continue current medications"
+        },
+        {
+          "id": "V021",
+          "date": "2024-01-10",
+          "provider": "Dr. Jennifer Lee, MD",
+          "chief_complaint": "New diagnosis of diabetes",
+          "diagnosis": ["Type 2 Diabetes", "Hypertension", "Hyperlipidemia"],
+          "medications_prescribed": ["Metformin", "Lisinopril", "Atorvastatin"],
+          "follow_up_required": true,
+          "notes": "A1C 7.2%, starting Metformin. Continue blood pressure and cholesterol management."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A020",
+          "type": "coverage",
+          "severity": "low",
+          "message": "Lisinopril requires prior authorization renewal in 60 days",
+          "medication": "Lisinopril",
+          "action_required": false
+        },
+        {
+          "id": "A021",
+          "type": "coverage",
+          "severity": "medium",
+          "message": "Atorvastatin requires prior authorization renewal in 30 days",
+          "medication": "Atorvastatin",
+          "action_required": true
+        }
+      ]
+    },
+    "P012": {
+      "visits": [
+        {
+          "id": "V022",
+          "date": "2024-03-30",
+          "provider": "Dr. David Thompson, MD",
+          "chief_complaint": "Ankle fracture follow-up and cast removal",
+          "diagnosis": ["Right ankle fracture", "Osteopenia", "Moderate fracture risk"],
+          "medications_prescribed": ["Calcium Carbonate", "Vitamin D3", "Ibuprofen"],
+          "follow_up_required": true,
+          "notes": "Cast removed, healing progressing well. Start physical therapy. Monitor bone density."
+        },
+        {
+          "id": "V023",
+          "date": "2024-03-10",
+          "provider": "Dr. Robert Martinez, MD",
+          "chief_complaint": "Ankle fracture emergency",
+          "diagnosis": ["Right ankle fracture", "Fall injury", "Osteopenia"],
+          "medications_prescribed": ["Ibuprofen", "Calcium Carbonate", "Vitamin D3"],
+          "follow_up_required": true,
+          "notes": "Right ankle fracture from fall. Cast applied, no surgery needed. Start bone health supplements."
+        },
+        {
+          "id": "V024",
+          "date": "2024-02-20",
+          "provider": "Dr. Margaret O'Brien, MD",
+          "chief_complaint": "Routine check-up and bone density concerns",
+          "diagnosis": ["Osteopenia", "Previous sports injury"],
+          "medications_prescribed": ["Calcium Carbonate", "Vitamin D3"],
+          "follow_up_required": true,
+          "notes": "Bone density scan shows osteopenia. Start calcium and vitamin D supplementation."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "A022",
+          "type": "coverage",
+          "severity": "low",
+          "message": "Calcium Carbonate covered with no restrictions",
+          "medication": "Calcium Carbonate",
+          "action_required": false
+        },
+        {
+          "id": "A023",
+          "type": "coverage",
+          "severity": "low",
+          "message": "Vitamin D3 covered with lab values for high doses",
+          "medication": "Vitamin D3",
+          "action_required": false
+        },
+        {
+          "id": "A024",
+          "type": "follow_up",
+          "severity": "medium",
+          "message": "Physical therapy referral needed for ankle rehabilitation",
+          "medication": null,
+          "action_required": true
+        }
+      ]
+    }
+  }
+}

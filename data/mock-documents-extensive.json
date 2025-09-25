@@ -1,0 +1,1463 @@
+{
+  "documents": {
+    "P011": {
+      "patient_name": "John Smith",
+      "insurance_carrier": "Anthem Blue Cross Blue Shield",
+      "plan_type": "PPO Gold",
+      "member_id": "ABC111222333",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31",
+      "documents": [
+        {
+          "id": "DOC001",
+          "type": "SBC",
+          "title": "Summary of Benefits and Coverage (SBC) - Anthem PPO Gold Plan 2024",
+          "description": "Comprehensive 47-page summary of benefits, coverage, and costs for PPO Gold plan including detailed cost-sharing, network information, and coverage limitations",
+          "date": "2024-01-01",
+          "file_size": "8.7 MB",
+          "pages": 47,
+          "status": "Current",
+          "category": "Plan Information",
+          "has_pdf": true,
+          "pdf_url": "/documents/sbc-anthem-ppo-gold-2024.pdf",
+          "content": {
+            "plan_name": "Anthem PPO Gold Plan",
+            "plan_id": "ANTHEM-PPO-GOLD-2024",
+            "deductible": "$1,200 individual / $2,400 family",
+            "out_of_pocket_max": "$5,000 individual / $10,000 family",
+            "premium": "$450/month",
+            "sections": [
+              {
+                "title": "Plan Overview",
+                "paragraphs": [
+                  "This Summary of Benefits and Coverage (SBC) provides a brief overview of your Anthem PPO Gold plan. It highlights key features such as deductibles, copayments, and coinsurance. For complete details, please refer to your Certificate of Coverage.",
+                  "Effective Date: January 1, 2024 to December 31, 2024. This plan is designed to provide comprehensive healthcare coverage with flexibility to see any provider, though you save money when you use in-network providers.",
+                  "Your Anthem PPO Gold plan offers extensive coverage for medical, prescription drug, and mental health services. The plan includes preventive care at no cost, comprehensive prescription drug coverage, and access to a nationwide network of healthcare providers."
+                ],
+                "list": [
+                  "Plan Name: Anthem PPO Gold Plan",
+                  "Coverage Type: Preferred Provider Organization (PPO)",
+                  "Annual Premium: $450/month",
+                  "Network: Anthem PPO Network",
+                  "Coverage Area: Massachusetts and surrounding states"
+                ]
+              },
+              {
+                "title": "Deductibles and Out-of-Pocket Maximums",
+                "paragraphs": [
+                  "Your deductible is the amount you pay for covered health care services before your plan starts to pay. Your out-of-pocket maximum is the most you have to pay for covered services in a plan year.",
+                  "The individual deductible is $1,200 and the family deductible is $2,400. Once you meet your deductible, you pay copayments or coinsurance for covered services. Your out-of-pocket maximum protects you from excessive costs - once you reach $5,000 in out-of-pocket costs for an individual or $10,000 for a family, the plan pays 100% of covered services for the rest of the year."
+                ],
+                "table": {
+                  "headers": ["Item", "In-Network", "Out-of-Network"],
+                  "rows": [
+                    ["Individual Deductible", "$1,200", "$2,400"],
+                    ["Family Deductible", "$2,400", "$4,800"],
+                    ["Individual Out-of-Pocket Max", "$5,000", "$10,000"],
+                    ["Family Out-of-Pocket Max", "$10,000", "$20,000"]
+                  ]
+                }
+              },
+              {
+                "title": "Copayments and Coinsurance",
+                "paragraphs": [
+                  "Copayments are fixed amounts you pay for covered services. Coinsurance is your share of the cost of a covered health care service, calculated as a percentage of the allowed amount for the service.",
+                  "Your plan includes copayments for most services, which means you pay a fixed amount and the plan pays the rest. For services that require coinsurance, you pay a percentage of the allowed amount after meeting your deductible."
+                ],
+                "table": {
+                  "headers": ["Service", "In-Network Copay/Coinsurance", "Out-of-Network Copay/Coinsurance"],
+                  "rows": [
+                    ["Primary Care Visit", "$20 copay", "40% coinsurance after deductible"],
+                    ["Specialist Visit", "$40 copay", "40% coinsurance after deductible"],
+                    ["Emergency Room", "$200 copay (waived if admitted)", "$200 copay (waived if admitted)"],
+                    ["Urgent Care", "$60 copay", "40% coinsurance after deductible"],
+                    ["Hospital Stay (per admission)", "20% coinsurance after deductible", "40% coinsurance after deductible"]
+                  ]
+                }
+              },
+              {
+                "title": "Prescription Drug Coverage",
+                "paragraphs": [
+                  "Your plan includes comprehensive prescription drug coverage. Costs vary by drug tier, with generic medications typically costing less than brand-name drugs.",
+                  "You can fill prescriptions at any in-network pharmacy, including retail pharmacies, mail-order pharmacies, and specialty pharmacies for complex medications."
+                ],
+                "table": {
+                  "headers": ["Drug Tier", "In-Network Copay/Coinsurance", "Out-of-Network Copay/Coinsurance"],
+                  "rows": [
+                    ["Tier 1 (Generic)", "$8 copay", "$16 copay"],
+                    ["Tier 2 (Preferred Brand)", "$30 copay", "$60 copay"],
+                    ["Tier 3 (Non-Preferred Brand)", "$60 copay", "$120 copay"],
+                    ["Tier 4 (Specialty)", "25% coinsurance (up to $250 max)", "50% coinsurance (up to $500 max)"]
+                  ]
+                }
+              },
+              {
+                "title": "Preventive Care",
+                "paragraphs": [
+                  "Preventive care services are covered at 100% with no copayment, deductible, or coinsurance when you use an in-network provider. These services help prevent illness and detect health problems early when they're most treatable.",
+                  "Covered preventive services include annual physical exams, immunizations, cancer screenings, and other evidence-based preventive care services recommended by the U.S. Preventive Services Task Force."
+                ],
+                "list": [
+                  "Annual physical exams and wellness visits",
+                  "Immunizations and vaccines (flu, COVID-19, HPV, etc.)",
+                  "Cancer screenings (mammograms, colonoscopies, Pap smears)",
+                  "Blood pressure and cholesterol screenings",
+                  "Diabetes screenings and management",
+                  "Mental health screenings",
+                  "Tobacco cessation counseling",
+                  "Obesity screening and counseling"
+                ]
+              },
+              {
+                "title": "Mental Health and Substance Abuse Coverage",
+                "paragraphs": [
+                  "Your plan provides comprehensive coverage for mental health and substance abuse services, including inpatient and outpatient treatment, counseling, and medication management.",
+                  "Mental health benefits are provided at the same level as medical benefits, ensuring you have access to the care you need for mental health conditions."
+                ],
+                "list": [
+                  "Individual therapy sessions ($40 copay)",
+                  "Group therapy sessions ($40 copay)",
+                  "Psychiatric care and medication management ($40 copay)",
+                  "Inpatient mental health treatment (20% coinsurance)",
+                  "Substance abuse treatment and counseling",
+                  "Crisis intervention services",
+                  "Mental health case management"
+                ]
+              },
+              {
+                "title": "Maternity and Newborn Care",
+                "paragraphs": [
+                  "Your plan provides comprehensive coverage for maternity care, including prenatal visits, delivery, and postnatal care for both mother and baby.",
+                  "All maternity-related services are covered as essential health benefits, including labor and delivery, newborn care, and breastfeeding support."
+                ],
+                "list": [
+                  "Prenatal care visits (no copay for preventive visits)",
+                  "Labor and delivery (20% coinsurance after deductible)",
+                  "Postnatal care and follow-up visits",
+                  "Newborn care and well-baby visits",
+                  "Breastfeeding support and lactation counseling",
+                  "Complications of pregnancy (covered as medical condition)",
+                  "Genetic testing and counseling"
+                ]
+              },
+              {
+                "title": "Emergency and Urgent Care",
+                "paragraphs": [
+                  "Your plan provides coverage for emergency and urgent care services. Emergency care is covered even if you're out of your service area, and urgent care provides convenient access to care for non-emergency conditions.",
+                  "Emergency services are covered at the same level whether you use an in-network or out-of-network provider, ensuring you get the care you need in a medical emergency."
+                ],
+                "list": [
+                  "Emergency room visits ($200 copay, waived if admitted)",
+                  "Urgent care visits ($60 copay)",
+                  "Ambulance services ($100 copay for emergency transport)",
+                  "Emergency air transport (when medically necessary)",
+                  "Emergency mental health services",
+                  "Emergency prescription medications"
+                ]
+              },
+              {
+                "title": "Prescription Drug Benefits",
+                "paragraphs": [
+                  "Your plan includes comprehensive prescription drug coverage through a network of retail pharmacies, mail-order pharmacies, and specialty pharmacies.",
+                  "You can save money by using generic medications when available, and you can get 90-day supplies of maintenance medications through mail order for additional savings."
+                ],
+                "list": [
+                  "Retail pharmacy network (CVS, Walgreens, Rite Aid, local pharmacies)",
+                  "Mail-order pharmacy (90-day supplies for maintenance medications)",
+                  "Specialty pharmacy (for complex, high-cost medications)",
+                  "Prior authorization (required for certain medications)",
+                  "Step therapy (may be required for some brand-name drugs)",
+                  "Quantity limits (for controlled substances and high-cost drugs)"
+                ]
+              },
+              {
+                "title": "Appeals and Grievances",
+                "paragraphs": [
+                  "If you disagree with a coverage decision or have a complaint about your plan, you have the right to file an appeal or grievance. The plan provides a fair and timely process for resolving disputes.",
+                  "You can file an appeal if your claim is denied or if you disagree with a coverage determination. You can file a grievance for any other complaint about your plan or care."
+                ],
+                "list": [
+                  "Internal appeals process (plan reviews your case)",
+                  "External appeals process (independent review)",
+                  "Grievance process (for complaints about care or service)",
+                  "Expedited appeals (for urgent medical situations)",
+                  "Right to request case files and documentation",
+                  "Right to have a representative assist with appeals"
+                ]
+              },
+              {
+                "title": "Coverage Limitations and Exclusions",
+                "paragraphs": [
+                  "While your plan provides comprehensive coverage, there are some services and treatments that are not covered. It's important to understand these limitations to avoid unexpected costs.",
+                  "Some services may require prior authorization or may have quantity limits. Always check with your plan before receiving non-emergency care to ensure coverage."
+                ],
+                "list": [
+                  "Cosmetic surgery (unless medically necessary)",
+                  "Weight loss surgery (unless medically necessary and pre-authorized)",
+                  "Experimental treatments and investigational procedures",
+                  "Dental care (separate plan available)",
+                  "Vision care (separate plan available)",
+                  "Hearing aids and hearing devices",
+                  "Long-term care and custodial care",
+                  "Private duty nursing (unless medically necessary)"
+                ]
+              },
+              {
+                "title": "Network Information",
+                "paragraphs": [
+                  "Your plan includes access to a large network of healthcare providers. Using in-network providers will save you money, but you can also see out-of-network providers for a higher cost.",
+                  "The Anthem PPO Network includes thousands of providers across the country, giving you flexibility to receive care wherever you are."
+                ],
+                "list": [
+                  "Primary care physicians and specialists",
+                  "Hospitals and medical centers",
+                  "Urgent care centers and walk-in clinics",
+                  "Mental health providers and counselors",
+                  "Physical therapists and rehabilitation specialists",
+                  "Diagnostic imaging centers and laboratories",
+                  "Pharmacy network (retail and mail-order)",
+                  "Specialty pharmacies for complex medications"
+                ]
+              },
+              {
+                "title": "Member Resources and Support",
+                "paragraphs": [
+                  "Your plan includes a variety of resources and support services to help you manage your health and make the most of your coverage.",
+                  "These resources are available 24/7 and can help you find providers, understand your benefits, and get answers to your questions."
+                ],
+                "list": [
+                  "Member portal and mobile app",
+                  "24/7 nurse line for health questions",
+                  "Provider directory and search tools",
+                  "Cost estimator tools",
+                  "Health and wellness programs",
+                  "Disease management programs",
+                  "Case management services",
+                  "Language interpretation services"
+                ]
+              },
+              {
+                "title": "Important Contact Information",
+                "paragraphs": [
+                  "Keep this information handy for when you need to contact your plan, find a provider, or get help with your coverage.",
+                  "You can reach customer service 24/7 for assistance with your plan, finding providers, or getting answers to your questions."
+                ],
+                "list": [
+                  "Customer Service: 1-800-555-1234",
+                  "Member Portal: anthem.com/member",
+                  "Mobile App: Available for iOS and Android",
+                  "Nurse Line: 1-800-555-5678",
+                  "Provider Directory: anthem.com/find-provider",
+                  "Pharmacy Locator: anthem.com/find-pharmacy",
+                  "Emergency: 911 or nearest emergency room",
+                  "TDD/TTY: 1-800-555-7890"
+                ]
+              },
+              {
+                "title": "Understanding Your Benefits",
+                "paragraphs": [
+                  "This SBC is a summary of your benefits and coverage. For complete details about your plan, including all terms and conditions, please refer to your Certificate of Coverage.",
+                  "If you have questions about your coverage or need help understanding your benefits, contact customer service or visit the member portal for more information."
+                ],
+                "list": [
+                  "This SBC is not a complete description of your plan",
+                  "For complete details, see your Certificate of Coverage",
+                  "Benefits may change during the plan year",
+                  "You will be notified of any changes",
+                  "This SBC is available in other languages",
+                  "Large print versions are available upon request"
+                ]
+              },
+              {
+                "title": "Cost-Sharing Examples",
+                "paragraphs": [
+                  "The following examples show how much you would pay for common medical services under this plan. These examples are based on typical costs and may vary depending on your specific situation.",
+                  "Remember that you must meet your deductible before the plan starts paying for most services, except for preventive care and some other services."
+                ],
+                "table": {
+                  "headers": ["Service", "Your Cost (In-Network)", "Your Cost (Out-of-Network)"],
+                  "rows": [
+                    ["Annual Physical Exam", "$0 (preventive care)", "$0 (preventive care)"],
+                    ["Primary Care Visit", "$20 copay", "40% coinsurance after deductible"],
+                    ["Specialist Visit", "$40 copay", "40% coinsurance after deductible"],
+                    ["Emergency Room Visit", "$200 copay", "$200 copay"],
+                    ["Urgent Care Visit", "$60 copay", "40% coinsurance after deductible"],
+                    ["Hospital Stay (3 days)", "20% coinsurance after deductible", "40% coinsurance after deductible"],
+                    ["Generic Prescription", "$8 copay", "$16 copay"],
+                    ["Brand Name Prescription", "$30 copay", "$60 copay"]
+                  ]
+                }
+              },
+              {
+                "title": "Prior Authorization Requirements",
+                "paragraphs": [
+                  "Some services and medications require prior authorization before they can be covered. This means your doctor must get approval from the plan before you receive the service or medication.",
+                  "Prior authorization helps ensure that services are medically necessary and appropriate for your condition. Your doctor will handle the prior authorization process for you."
+                ],
+                "list": [
+                  "Certain surgical procedures",
+                  "High-cost imaging (MRI, CT scans)",
+                  "Specialty medications",
+                  "Durable medical equipment over $500",
+                  "Home health care services",
+                  "Skilled nursing facility stays",
+                  "Mental health inpatient treatment",
+                  "Physical therapy beyond 20 visits"
+                ]
+              },
+              {
+                "title": "Step Therapy Requirements",
+                "paragraphs": [
+                  "Step therapy means you must try certain medications before the plan will cover a different medication. This is often required for brand-name drugs when generic alternatives are available.",
+                  "Your doctor will work with the plan to ensure you get the most appropriate medication for your condition while following step therapy requirements."
+                ],
+                "list": [
+                  "Brand-name drugs when generics are available",
+                  "High-cost specialty medications",
+                  "Certain pain management medications",
+                  "Some mental health medications",
+                  "Diabetes medications",
+                  "High blood pressure medications"
+                ]
+              },
+              {
+                "title": "Quantity Limits",
+                "paragraphs": [
+                  "Some medications have quantity limits to ensure safe and appropriate use. These limits are based on medical guidelines and FDA recommendations.",
+                  "If you need more medication than the quantity limit allows, your doctor can request an exception by providing medical justification."
+                ],
+                "list": [
+                  "Controlled substances (narcotics, stimulants)",
+                  "High-cost specialty medications",
+                  "Medications with abuse potential",
+                  "Medications with safety concerns",
+                  "Medications with limited clinical evidence",
+                  "Medications with high cost and limited benefit"
+                ]
+              },
+              {
+                "title": "Coverage for Chronic Conditions",
+                "paragraphs": [
+                  "Your plan provides comprehensive coverage for chronic conditions such as diabetes, heart disease, and mental health conditions. This includes medications, supplies, and ongoing care management.",
+                  "The plan includes disease management programs to help you manage your chronic condition and improve your health outcomes."
+                ],
+                "list": [
+                  "Diabetes management (medications, supplies, education)",
+                  "Heart disease management (medications, monitoring, rehabilitation)",
+                  "Mental health conditions (therapy, medications, case management)",
+                  "Cancer care (treatment, medications, supportive care)",
+                  "Kidney disease (dialysis, medications, transplant evaluation)",
+                  "Autoimmune conditions (specialty medications, monitoring)",
+                  "Respiratory conditions (medications, equipment, monitoring)",
+                  "Neurological conditions (specialty care, medications, therapy)"
+                ]
+              },
+              {
+                "title": "Coverage for Preventive Services",
+                "paragraphs": [
+                  "Preventive services are covered at 100% with no copayment, deductible, or coinsurance when you use an in-network provider. These services help prevent illness and detect health problems early.",
+                  "The plan covers all preventive services recommended by the U.S. Preventive Services Task Force, including screenings, immunizations, and counseling."
+                ],
+                "list": [
+                  "Annual physical exams and wellness visits",
+                  "Immunizations (flu, COVID-19, HPV, shingles, etc.)",
+                  "Cancer screenings (mammograms, colonoscopies, Pap smears)",
+                  "Blood pressure and cholesterol screenings",
+                  "Diabetes screenings and management",
+                  "Mental health screenings",
+                  "Tobacco cessation counseling and medications",
+                  "Obesity screening and counseling",
+                  "Depression screening",
+                  "HIV screening and counseling"
+                ]
+              },
+              {
+                "title": "Coverage for Emergency Services",
+                "paragraphs": [
+                  "Emergency services are covered at the same level whether you use an in-network or out-of-network provider. This ensures you get the care you need in a medical emergency.",
+                  "Emergency services include treatment for conditions that could reasonably be expected to result in serious jeopardy to your health if not treated immediately."
+                ],
+                "list": [
+                  "Emergency room visits ($200 copay, waived if admitted)",
+                  "Emergency ambulance services ($100 copay)",
+                  "Emergency air transport (when medically necessary)",
+                  "Emergency mental health services",
+                  "Emergency prescription medications",
+                  "Emergency dental care (for pain relief)",
+                  "Emergency vision care (for eye injuries)",
+                  "Emergency hearing care (for hearing loss)"
+                ]
+              },
+              {
+                "title": "Coverage for Maternity and Newborn Care",
+                "paragraphs": [
+                  "Your plan provides comprehensive coverage for maternity care, including prenatal visits, delivery, and postnatal care for both mother and baby.",
+                  "All maternity-related services are covered as essential health benefits, including labor and delivery, newborn care, and breastfeeding support."
+                ],
+                "list": [
+                  "Prenatal care visits (no copay for preventive visits)",
+                  "Labor and delivery (20% coinsurance after deductible)",
+                  "Postnatal care and follow-up visits",
+                  "Newborn care and well-baby visits",
+                  "Breastfeeding support and lactation counseling",
+                  "Complications of pregnancy (covered as medical condition)",
+                  "Genetic testing and counseling",
+                  "Prenatal vitamins and supplements",
+                  "Childbirth education classes",
+                  "Postpartum depression screening and treatment"
+                ]
+              },
+              {
+                "title": "Coverage for Mental Health and Substance Abuse",
+                "paragraphs": [
+                  "Your plan provides comprehensive coverage for mental health and substance abuse services, including inpatient and outpatient treatment, counseling, and medication management.",
+                  "Mental health benefits are provided at the same level as medical benefits, ensuring you have access to the care you need for mental health conditions."
+                ],
+                "list": [
+                  "Individual therapy sessions ($40 copay)",
+                  "Group therapy sessions ($40 copay)",
+                  "Psychiatric care and medication management ($40 copay)",
+                  "Inpatient mental health treatment (20% coinsurance)",
+                  "Substance abuse treatment and counseling",
+                  "Crisis intervention services",
+                  "Mental health case management",
+                  "Family therapy and counseling",
+                  "Psychological testing and evaluation",
+                  "Mental health day programs"
+                ]
+              },
+              {
+                "title": "Coverage for Prescription Drugs",
+                "paragraphs": [
+                  "Your plan includes comprehensive prescription drug coverage through a network of retail pharmacies, mail-order pharmacies, and specialty pharmacies.",
+                  "You can save money by using generic medications when available, and you can get 90-day supplies of maintenance medications through mail order for additional savings."
+                ],
+                "list": [
+                  "Retail pharmacy network (CVS, Walgreens, Rite Aid, local pharmacies)",
+                  "Mail-order pharmacy (90-day supplies for maintenance medications)",
+                  "Specialty pharmacy (for complex, high-cost medications)",
+                  "Prior authorization (required for certain medications)",
+                  "Step therapy (may be required for some brand-name drugs)",
+                  "Quantity limits (for controlled substances and high-cost drugs)",
+                  "Generic medications ($8 copay)",
+                  "Preferred brand medications ($30 copay)",
+                  "Non-preferred brand medications ($60 copay)",
+                  "Specialty medications (25% coinsurance, up to $250 max)"
+                ]
+              },
+              {
+                "title": "Coverage for Durable Medical Equipment",
+                "paragraphs": [
+                  "Your plan covers durable medical equipment (DME) that is medically necessary for your condition. This includes equipment like wheelchairs, walkers, and CPAP machines.",
+                  "DME must be prescribed by your doctor and may require prior authorization. The plan will work with you to find the most appropriate equipment for your needs."
+                ],
+                "list": [
+                  "Wheelchairs and mobility aids",
+                  "Walkers and canes",
+                  "CPAP machines and supplies",
+                  "Oxygen equipment and supplies",
+                  "Hospital beds and lift chairs",
+                  "Prosthetics and orthotics",
+                  "Diabetic supplies and equipment",
+                  "Wound care supplies",
+                  "Ostomy supplies",
+                  "Hearing aids (limited coverage)"
+                ]
+              },
+              {
+                "title": "Coverage for Home Health Care",
+                "paragraphs": [
+                  "Your plan covers home health care services when you need skilled care at home. This includes nursing care, physical therapy, and other services provided by licensed professionals.",
+                  "Home health care must be ordered by your doctor and provided by a licensed home health agency. The plan will work with you to arrange appropriate care."
+                ],
+                "list": [
+                  "Skilled nursing care",
+                  "Physical therapy",
+                  "Occupational therapy",
+                  "Speech therapy",
+                  "Home health aide services",
+                  "Medical social services",
+                  "Nutritional counseling",
+                  "Medication management",
+                  "Wound care",
+                  "Pain management"
+                ]
+              },
+              {
+                "title": "Coverage for Skilled Nursing Facility Care",
+                "paragraphs": [
+                  "Your plan covers skilled nursing facility care when you need 24-hour skilled nursing care after a hospital stay. This includes rehabilitation services and medical care.",
+                  "Skilled nursing facility care is covered for up to 100 days per benefit period. You must meet certain criteria to qualify for this coverage."
+                ],
+                "list": [
+                  "Skilled nursing care (up to 100 days per benefit period)",
+                  "Physical therapy and rehabilitation",
+                  "Occupational therapy",
+                  "Speech therapy",
+                  "Medical social services",
+                  "Nutritional counseling",
+                  "Medication management",
+                  "Wound care",
+                  "Pain management",
+                  "Discharge planning"
+                ]
+              },
+              {
+                "title": "Coverage for Hospice Care",
+                "paragraphs": [
+                  "Your plan covers hospice care when you have a terminal illness and choose to focus on comfort care rather than curative treatment. This includes medical care, counseling, and support services.",
+                  "Hospice care is provided by a licensed hospice agency and includes services for both you and your family members."
+                ],
+                "list": [
+                  "Medical care and pain management",
+                  "Nursing care and support",
+                  "Counseling and emotional support",
+                  "Social services",
+                  "Spiritual care",
+                  "Bereavement counseling",
+                  "Respite care for family caregivers",
+                  "Medical equipment and supplies",
+                  "Prescription medications",
+                  "Home health aide services"
+                ]
+              },
+              {
+                "title": "Coverage for Ambulance Services",
+                "paragraphs": [
+                  "Your plan covers ambulance services when you need emergency medical transport. This includes ground ambulance and air ambulance when medically necessary.",
+                  "Ambulance services are covered at the same level whether you use an in-network or out-of-network provider, ensuring you get the care you need in an emergency."
+                ],
+                "list": [
+                  "Emergency ground ambulance ($100 copay)",
+                  "Emergency air ambulance (when medically necessary)",
+                  "Non-emergency ambulance (20% coinsurance)",
+                  "Inter-facility transfers",
+                  "Emergency medical services",
+                  "Paramedic services",
+                  "Emergency medical technicians",
+                  "Medical equipment and supplies",
+                  "Emergency medications",
+                  "Emergency procedures"
+                ]
+              },
+              {
+                "title": "Coverage for Diagnostic Imaging",
+                "paragraphs": [
+                  "Your plan covers diagnostic imaging services when they are medically necessary. This includes X-rays, CT scans, MRIs, and other imaging studies.",
+                  "Some imaging services may require prior authorization. Your doctor will work with the plan to ensure you get the imaging you need."
+                ],
+                "list": [
+                  "X-rays and radiographs",
+                  "CT scans and computed tomography",
+                  "MRI scans and magnetic resonance imaging",
+                  "Ultrasound and sonography",
+                  "Nuclear medicine studies",
+                  "Mammography and breast imaging",
+                  "Bone density scans (DEXA)",
+                  "PET scans and positron emission tomography",
+                  "Cardiac imaging and stress tests",
+                  "Neurological imaging"
+                ]
+              },
+              {
+                "title": "Coverage for Laboratory Services",
+                "paragraphs": [
+                  "Your plan covers laboratory services when they are medically necessary. This includes blood tests, urine tests, and other laboratory studies.",
+                  "Laboratory services are typically covered with a copayment or coinsurance. Some specialized tests may require prior authorization."
+                ],
+                "list": [
+                  "Blood tests and blood work",
+                  "Urine tests and urinalysis",
+                  "Stool tests and fecal analysis",
+                  "Tissue biopsies and pathology",
+                  "Genetic testing and counseling",
+                  "Drug testing and toxicology",
+                  "Microbiology and cultures",
+                  "Chemistry panels and profiles",
+                  "Hematology and blood counts",
+                  "Immunology and allergy testing"
+                ]
+              },
+              {
+                "title": "Coverage for Physical Therapy and Rehabilitation",
+                "paragraphs": [
+                  "Your plan covers physical therapy and rehabilitation services when they are medically necessary. This includes physical therapy, occupational therapy, and speech therapy.",
+                  "Physical therapy services are covered for up to 20 visits per year. Additional visits may require prior authorization."
+                ],
+                "list": [
+                  "Physical therapy (up to 20 visits per year)",
+                  "Occupational therapy",
+                  "Speech therapy",
+                  "Cardiac rehabilitation",
+                  "Pulmonary rehabilitation",
+                  "Neurological rehabilitation",
+                  "Orthopedic rehabilitation",
+                  "Sports medicine and therapy",
+                  "Aquatic therapy",
+                  "Massage therapy (when medically necessary)"
+                ]
+              },
+              {
+                "title": "Coverage for Chiropractic Care",
+                "paragraphs": [
+                  "Your plan covers chiropractic care when it is medically necessary. This includes spinal manipulation and other chiropractic treatments.",
+                  "Chiropractic care is covered with a copayment and may have visit limits. Your doctor must provide a referral for chiropractic services."
+                ],
+                "list": [
+                  "Spinal manipulation and adjustment",
+                  "Chiropractic examination and evaluation",
+                  "Therapeutic exercises and stretches",
+                  "Massage therapy and soft tissue work",
+                  "Electrical stimulation and modalities",
+                  "Heat and cold therapy",
+                  "Traction and decompression",
+                  "Postural analysis and correction",
+                  "Ergonomic assessment and advice",
+                  "Lifestyle counseling and education"
+                ]
+              },
+              {
+                "title": "Coverage for Acupuncture",
+                "paragraphs": [
+                  "Your plan covers acupuncture when it is medically necessary. This includes traditional Chinese medicine and other acupuncture treatments.",
+                  "Acupuncture services are covered with a copayment and may have visit limits. Your doctor must provide a referral for acupuncture services."
+                ],
+                "list": [
+                  "Traditional Chinese acupuncture",
+                  "Electroacupuncture",
+                  "Auricular acupuncture",
+                  "Scalp acupuncture",
+                  "Hand and foot acupuncture",
+                  "Moxibustion and heat therapy",
+                  "Cupping and suction therapy",
+                  "Acupressure and massage",
+                  "Herbal medicine and supplements",
+                  "Lifestyle counseling and education"
+                ]
+              },
+              {
+                "title": "Coverage for Vision Care",
+                "paragraphs": [
+                  "Your plan provides limited coverage for vision care services. This includes eye exams and some corrective lenses, but coverage is limited compared to medical services.",
+                  "Vision care services are covered with a copayment and may have annual limits. You may want to consider a separate vision plan for more comprehensive coverage."
+                ],
+                "list": [
+                  "Comprehensive eye exams ($40 copay)",
+                  "Glaucoma screening (preventive care)",
+                  "Diabetic eye exams (preventive care)",
+                  "Corrective lenses (limited coverage)",
+                  "Contact lenses (limited coverage)",
+                  "Eyeglass frames (limited coverage)",
+                  "Lens treatments and coatings",
+                  "Vision therapy (when medically necessary)",
+                  "Low vision aids and devices",
+                  "Vision rehabilitation services"
+                ]
+              },
+              {
+                "title": "Coverage for Dental Care",
+                "paragraphs": [
+                  "Your plan provides limited coverage for dental care services. This includes basic dental care and some oral surgery, but coverage is limited compared to medical services.",
+                  "Dental care services are covered with a copayment and may have annual limits. You may want to consider a separate dental plan for more comprehensive coverage."
+                ],
+                "list": [
+                  "Basic dental exams and cleanings",
+                  "Preventive dental services",
+                  "Restorative dental procedures",
+                  "Oral surgery (when medically necessary)",
+                  "Emergency dental care",
+                  "Dental X-rays and imaging",
+                  "Periodontal treatment",
+                  "Endodontic treatment (root canals)",
+                  "Prosthodontic treatment (dentures)",
+                  "Orthodontic treatment (limited coverage)"
+                ]
+              },
+              {
+                "title": "Coverage for Hearing Care",
+                "paragraphs": [
+                  "Your plan provides limited coverage for hearing care services. This includes hearing tests and some hearing aids, but coverage is limited compared to medical services.",
+                  "Hearing care services are covered with a copayment and may have annual limits. You may want to consider a separate hearing plan for more comprehensive coverage."
+                ],
+                "list": [
+                  "Hearing tests and evaluations",
+                  "Hearing aid evaluation and fitting",
+                  "Hearing aids (limited coverage)",
+                  "Hearing aid repairs and maintenance",
+                  "Assistive listening devices",
+                  "Cochlear implants (when medically necessary)",
+                  "Hearing rehabilitation services",
+                  "Tinnitus treatment and management",
+                  "Auditory processing assessment",
+                  "Hearing conservation programs"
+                ]
+              },
+              {
+                "title": "Coverage for Podiatry Care",
+                "paragraphs": [
+                  "Your plan covers podiatry care when it is medically necessary. This includes foot and ankle care, diabetic foot care, and custom orthotics.",
+                  "Podiatry services are covered with a copayment and may require a referral from your primary care doctor."
+                ],
+                "list": [
+                  "Foot and ankle examinations",
+                  "Diabetic foot care and monitoring",
+                  "Custom orthotics and shoe inserts",
+                  "Nail care and trimming",
+                  "Foot and ankle surgery",
+                  "Wound care and treatment",
+                  "Physical therapy for foot and ankle",
+                  "Gait analysis and correction",
+                  "Foot and ankle X-rays",
+                  "Preventive foot care education"
+                ]
+              }
+            ],
+            "copays": {
+              "primary_care": "$20",
+              "specialist": "$40",
+              "emergency": "$200",
+              "urgent_care": "$60",
+              "mental_health": "$40",
+              "physical_therapy": "$40"
+            },
+            "prescription_tiers": {
+              "generic": "$8",
+              "preferred_brand": "$30",
+              "non_preferred": "$60",
+              "specialty": "25% coinsurance"
+            },
+            "covered_services": [
+              "Preventive care (100% covered)",
+              "Primary care visits",
+              "Specialist visits",
+              "Emergency room visits",
+              "Urgent care",
+              "Prescription drugs",
+              "Lab work and X-rays",
+              "Mental health services",
+              "Maternity care",
+              "Rehabilitation services",
+              "Durable medical equipment",
+              "Home health care",
+              "Skilled nursing facility",
+              "Hospice care",
+              "Ambulance services - emergency transport ($100 copay), non-emergency transport (20% coinsurance)",
+              "Medical equipment and supplies - prosthetics, orthotics, diabetic supplies, wound care supplies, ostomy supplies",
+              "Diagnostic imaging - MRI, CT scans, ultrasounds, mammograms, bone density scans, nuclear medicine studies",
+              "Surgical procedures - inpatient surgery (20% coinsurance), outpatient surgery (20% coinsurance), same-day surgery",
+              "Anesthesia services - covered with surgical procedures, includes general, regional, and local anesthesia",
+              "Pathology services - laboratory analysis, tissue examination, cytology, histology, molecular diagnostics",
+              "Radiology services - X-rays, fluoroscopy, angiography, interventional radiology, radiation therapy",
+              "Cardiology services - EKGs, stress tests, echocardiograms, cardiac catheterization, pacemaker services",
+              "Oncology services - cancer treatment, chemotherapy, radiation therapy, immunotherapy, targeted therapy",
+              "Diabetes management - glucose monitors, test strips, insulin pumps, continuous glucose monitors, diabetes education",
+              "Chronic disease management - comprehensive care programs for diabetes, heart disease, COPD, kidney disease",
+              "Behavioral health services - counseling, therapy, psychiatric care, psychological testing, neuropsychological evaluation",
+              "Substance abuse treatment - inpatient detoxification, outpatient counseling, medication-assisted treatment, recovery programs",
+              "Telemedicine services - virtual visits with providers, remote monitoring, digital health consultations",
+              "Second opinion services - specialist consultations for complex conditions, treatment plan reviews",
+              "Clinical trials - approved research studies, investigational treatments, experimental therapies",
+              "Genetic testing - when medically necessary, includes carrier screening, diagnostic testing, pharmacogenomic testing",
+              "Fertility services - limited coverage for infertility diagnosis and treatment, in vitro fertilization (IVF) with restrictions",
+              "Gender affirmation services - hormone therapy, gender confirmation surgery, mental health support",
+              "Travel medicine - immunizations for international travel, travel health consultations, malaria prophylaxis",
+              "Nutrition counseling - registered dietitian services, medical nutrition therapy, weight management programs",
+              "Smoking cessation programs - counseling, medications, nicotine replacement therapy, behavioral support",
+              "Weight management programs - medically supervised weight loss, bariatric surgery evaluation, nutrition counseling",
+              "Sleep studies - diagnostic sleep studies, CPAP titration, sleep disorder treatment, sleep medicine consultations",
+              "Allergy testing and treatment - skin testing, blood testing, immunotherapy, allergy shots, environmental controls",
+              "Dermatology services - skin condition treatment, mole removal, skin cancer screening, cosmetic procedures (limited)",
+              "Podiatry services - foot and ankle care, diabetic foot care, custom orthotics, nail care",
+              "Chiropractic services - spinal manipulation therapy, musculoskeletal treatment, pain management",
+              "Acupuncture services - traditional Chinese medicine, pain management, stress reduction, wellness promotion",
+              "Physical therapy - rehabilitation services, injury recovery, post-surgical therapy, chronic pain management",
+              "Occupational therapy - functional improvement, adaptive equipment training, workplace modifications",
+              "Speech therapy - communication disorders, swallowing disorders, voice therapy, cognitive-communication therapy",
+              "Audiology services - hearing testing, hearing aid evaluation, auditory processing assessment, tinnitus management",
+              "Vision services - comprehensive eye exams, glaucoma screening, diabetic eye exams, corrective lens coverage (limited)",
+              "Dental services - basic dental care, preventive services, restorative procedures, oral surgery (limited coverage)",
+              "Pharmacy services - prescription drug management, medication therapy management, drug interaction screening",
+              "Mail order pharmacy - 90-day supply delivery, maintenance medications, specialty medications",
+              "Specialty pharmacy - complex medication management, injectable medications, biologic medications",
+              "Prior authorization services - coverage determination, medical necessity review, formulary exceptions",
+              "Case management - complex condition coordination, care planning, resource coordination, discharge planning",
+              "Disease management - chronic condition support, patient education, self-management training, monitoring programs",
+              "Care coordination - provider communication, care plan development, transition management, follow-up care",
+              "Patient advocacy - assistance with coverage issues, appeals support, benefit interpretation, provider referrals",
+              "Language services - interpreter services, translation services, multilingual support, cultural competency training",
+              "Cultural competency - culturally appropriate care, health literacy support, community health outreach",
+              "Accessibility services - accommodations for disabilities, assistive technology, communication aids, mobility assistance",
+              "Transportation services - medical appointment transport, non-emergency medical transportation, mileage reimbursement",
+              "Meal services - medically necessary nutrition support, therapeutic diets, enteral nutrition, parenteral nutrition",
+              "Home modifications - accessibility improvements, safety modifications, adaptive equipment installation",
+              "Assistive technology - communication devices, mobility aids, computer access, environmental controls",
+              "Respite care - temporary care for caregivers, adult day care, in-home respite, facility-based respite",
+              "Adult day care - supervised care during the day, social activities, health monitoring, personal care",
+              "Memory care - specialized dementia care, Alzheimer's support, cognitive stimulation, behavioral management",
+              "Palliative care - comfort and symptom management, pain control, quality of life improvement, family support",
+              "Bereavement counseling - grief support services, family counseling, memorial services, support groups",
+              "Family planning services - contraception counseling, contraceptive methods, pregnancy testing, preconception care",
+              "Prenatal care - comprehensive pregnancy care, prenatal visits, genetic screening, childbirth education",
+              "Postnatal care - recovery and newborn care, breastfeeding support, postpartum depression screening, infant care",
+              "Pediatric services - specialized children's healthcare, developmental screening, immunizations, school health",
+              "Adolescent services - teen-specific healthcare, confidential services, reproductive health, mental health support",
+              "Geriatric services - specialized elderly care, fall prevention, medication management, advance care planning",
+              "Women's health services - comprehensive gynecological care, breast health, reproductive health, menopause management",
+              "Men's health services - specialized male healthcare, prostate health, testosterone therapy, erectile dysfunction treatment",
+              "LGBTQ+ health services - inclusive healthcare, hormone therapy, mental health support, preventive care",
+              "Veterans health services - specialized veteran care, PTSD treatment, service-connected conditions, military sexual trauma",
+              "Rural health services - access to care in rural areas, telemedicine, mobile health units, community health workers",
+              "Urban health services - specialized urban healthcare, community health centers, safety net providers, public health",
+              "Community health services - population health programs, health promotion, disease prevention, wellness initiatives",
+              "Public health services - disease prevention and health promotion, health education, community outreach, health policy",
+              "Environmental health services - exposure-related care, occupational health, environmental medicine, toxicology",
+              "Occupational health services - work-related healthcare, workplace safety, injury prevention, return-to-work programs",
+              "Travel health services - international healthcare, travel medicine, medical evacuation, international coverage",
+              "Emergency preparedness - disaster response healthcare, emergency medical services, mass casualty care, public health emergency",
+              "Crisis intervention - mental health emergency services, suicide prevention, crisis counseling, emergency psychiatric care",
+              "Suicide prevention - mental health crisis support, suicide risk assessment, intervention programs, survivor support",
+              "Domestic violence services - trauma-informed care, safety planning, legal advocacy, counseling, shelter services",
+              "Child abuse services - specialized pediatric trauma care, forensic medical exams, family therapy, legal advocacy",
+              "Elder abuse services - specialized geriatric trauma care, adult protective services, legal advocacy, caregiver support",
+              "Human trafficking services - trauma-informed care, safety planning, legal advocacy, counseling, case management",
+              "Refugee health services - specialized immigrant healthcare, cultural competency, language services, community integration",
+              "Homeless health services - specialized population care, street medicine, shelter health, case management",
+              "Incarcerated health services - correctional healthcare, medical care in jails and prisons, mental health services",
+              "Military health services - active duty and veteran care, TRICARE coordination, service-connected conditions, military family care",
+              "Federal employee health services - government employee care, FEHB coordination, federal benefits, retirement health",
+              "Medicare coordination - dual eligible services, Medicare Advantage, Part D coordination, supplemental coverage",
+              "Medicaid coordination - dual eligible services, managed care, fee-for-service, waiver programs",
+              "Workers' compensation coordination - work injury care, return-to-work programs, vocational rehabilitation, disability management",
+              "Auto insurance coordination - accident-related care, personal injury protection, medical payments, uninsured motorist",
+              "Disability insurance coordination - disability-related care, return-to-work programs, vocational rehabilitation, income replacement",
+              "Life insurance coordination - terminal illness care, accelerated death benefits, hospice care, end-of-life planning",
+              "Long-term care insurance coordination - extended care services, nursing home care, assisted living, home care",
+              "Supplemental insurance coordination - additional coverage, gap insurance, critical illness, accident insurance",
+              "International coverage - overseas healthcare services, medical evacuation, international providers, global health",
+              "Emergency evacuation - medical transport services, air ambulance, international transport, medical repatriation",
+              "Repatriation services - return to home country, medical transport, family notification, embassy coordination"
+            ],
+            "exclusions": [
+              "Cosmetic surgery",
+              "Weight loss surgery (unless medically necessary)",
+              "Experimental treatments",
+              "Dental care (separate plan available)",
+              "Vision care (separate plan available)",
+              "Hearing aids",
+              "Long-term care",
+              "Private duty nursing"
+            ],
+            "network_providers": "Anthem PPO Network",
+            "coverage_area": "Massachusetts and surrounding states",
+            "pharmacy_network": "CVS, Walgreens, Rite Aid, Express Scripts",
+            "specialty_pharmacy": "Express Scripts Specialty Pharmacy",
+            "mail_order": "90-day supply available",
+            "prior_authorization": "Required for certain medications and procedures",
+            "appeals_process": "Internal and external appeals available",
+            "grievance_process": "Customer service and formal grievance process",
+            "coverage_verification": "Real-time eligibility verification available",
+            "cost_sharing": "Copays, coinsurance, and deductibles apply"
+          }
+        },
+        {
+          "id": "DOC002",
+          "type": "FORMULARY",
+          "title": "2024 Prescription Drug Formulary",
+          "description": "Complete list of covered prescription medications and tiers",
+          "date": "2024-01-01",
+          "file_size": "1.8 MB",
+          "pages": 45,
+          "status": "Current",
+          "category": "Prescription Coverage",
+          "has_pdf": true,
+          "pdf_url": "/documents/formulary-anthem-2024.pdf",
+          "content": {
+            "tier_1_generic": [
+              "Lisinopril (ACE inhibitor) - $8",
+              "Atorvastatin (statin) - $8",
+              "Metformin (diabetes) - $8",
+              "Amlodipine (calcium channel blocker) - $8",
+              "Hydrochlorothiazide (diuretic) - $8",
+              "Losartan (ARB) - $8",
+              "Simvastatin (statin) - $8",
+              "Glipizide (diabetes) - $8",
+              "Atenolol (beta blocker) - $8",
+              "Furosemide (diuretic) - $8",
+              "Warfarin (anticoagulant) - $8",
+              "Digoxin (cardiac glycoside) - $8",
+              "Spironolactone (diuretic) - $8",
+              "Carvedilol (beta blocker) - $8",
+              "Enalapril (ACE inhibitor) - $8"
+            ],
+            "tier_2_preferred_brand": [
+              "Norvasc (amlodipine) - $30",
+              "Zestril (lisinopril) - $30",
+              "Glucophage (metformin) - $30",
+              "Lipitor (atorvastatin) - $30",
+              "Cozaar (losartan) - $30",
+              "Tenormin (atenolol) - $30",
+              "Lasix (furosemide) - $30",
+              "Coumadin (warfarin) - $30",
+              "Lanoxin (digoxin) - $30",
+              "Aldactone (spironolactone) - $30"
+            ],
+            "tier_3_non_preferred": [
+              "Crestor (rosuvastatin) - $60",
+              "Diovan (valsartan) - $60",
+              "Avapro (irbesartan) - $60",
+              "Tricor (fenofibrate) - $60",
+              "Zetia (ezetimibe) - $60",
+              "Welchol (colesevelam) - $60",
+              "Pravachol (pravastatin) - $60",
+              "Mevacor (lovastatin) - $60"
+            ],
+            "tier_4_specialty": [
+              "Insulin products - 25% coinsurance",
+              "Injectable diabetes medications - 25% coinsurance",
+              "Specialty cardiovascular drugs - 25% coinsurance",
+              "Biologic medications - 25% coinsurance"
+            ],
+            "prior_auth_required": [
+              "High-dose statins (>40mg)",
+              "Specialty diabetes medications",
+              "Injectable medications",
+              "Non-formulary drugs",
+              "Biologic medications",
+              "Specialty cardiovascular drugs"
+            ],
+            "step_therapy": [
+              "Must try generic before brand",
+              "Must try preferred before non-preferred",
+              "Must try oral before injectable",
+              "Must try ACE inhibitor before ARB",
+              "Must try statin before other cholesterol medications"
+            ],
+            "quantity_limits": [
+              "30-day supply for most medications",
+              "90-day supply available through mail order",
+              "Specialty medications limited to 30-day supply",
+              "Controlled substances limited to 30-day supply"
+            ]
+          }
+        },
+        {
+          "id": "DOC003",
+          "type": "PLAN_DETAILS",
+          "title": "Detailed Plan Information",
+          "description": "Comprehensive plan details including network providers and benefits",
+          "date": "2024-01-01",
+          "file_size": "3.1 MB",
+          "pages": 12,
+          "status": "Current",
+          "category": "Plan Information",
+          "has_pdf": true,
+          "pdf_url": "/documents/plan-details-anthem-ppo-gold-2024.pdf",
+          "content": {
+            "network_providers": "Anthem PPO Network",
+            "coverage_area": "Massachusetts and surrounding states",
+            "pharmacy_network": "CVS, Walgreens, Rite Aid, Express Scripts",
+            "specialty_pharmacy": "Express Scripts Specialty Pharmacy",
+            "mail_order": "90-day supply available",
+            "prior_authorization": "Required for certain medications and procedures",
+            "appeals_process": "Internal and external appeals available",
+            "grievance_process": "Customer service and formal grievance process",
+            "coverage_verification": "Real-time eligibility verification available",
+            "cost_sharing": "Copays, coinsurance, and deductibles apply",
+            "network_hospitals": [
+              "Massachusetts General Hospital",
+              "Brigham and Women's Hospital",
+              "Beth Israel Deaconess Medical Center",
+              "Tufts Medical Center",
+              "Boston Medical Center"
+            ],
+            "specialty_centers": [
+              "Dana-Farber Cancer Institute",
+              "Joslin Diabetes Center",
+              "Mass Eye and Ear",
+              "Spaulding Rehabilitation Hospital"
+            ],
+            "urgent_care_centers": [
+              "CVS MinuteClinic",
+              "Walgreens Healthcare Clinic",
+              "GoHealth Urgent Care",
+              "CityMD Urgent Care"
+            ]
+          }
+        },
+        {
+          "id": "DOC004",
+          "type": "HYPERTENSION_GUIDELINES",
+          "title": "Hypertension Management Guidelines",
+          "description": "Coverage guidelines specific to hypertension treatment",
+          "date": "2024-01-01",
+          "file_size": "0.8 MB",
+          "pages": 3,
+          "status": "Current",
+          "category": "Clinical Guidelines",
+          "has_pdf": true,
+          "pdf_url": "/documents/hypertension-guidelines-anthem-2024.pdf",
+          "content": {
+            "covered_medications": [
+              "ACE inhibitors (lisinopril, enalapril, ramipril)",
+              "ARBs (losartan, valsartan, irbesartan)",
+              "Calcium channel blockers (amlodipine, diltiazem)",
+              "Diuretics (hydrochlorothiazide, chlorthalidone)",
+              "Beta blockers (metoprolol, atenolol)",
+              "Alpha blockers (doxazosin, terazosin)",
+              "Central alpha agonists (clonidine, methyldopa)",
+              "Direct renin inhibitors (aliskiren)"
+            ],
+            "prior_auth_requirements": [
+              "High-dose ACE inhibitors (>40mg)",
+              "Specialty ARBs",
+              "Combination medications",
+              "Non-formulary alternatives",
+              "Specialty cardiovascular drugs"
+            ],
+            "monitoring_requirements": [
+              "Blood pressure monitoring",
+              "Kidney function tests (BUN, creatinine)",
+              "Electrolyte monitoring (sodium, potassium)",
+              "Annual comprehensive metabolic panel",
+              "Lipid panel every 6 months",
+              "Hemoglobin A1C if diabetic"
+            ],
+            "step_therapy": [
+              "Start with generic ACE inhibitor",
+              "Add diuretic if needed",
+              "Consider ARB if ACE inhibitor not tolerated",
+              "Add calcium channel blocker if needed",
+              "Consider beta blocker for specific indications"
+            ],
+            "coverage_criteria": [
+              "Age 18 and older",
+              "Diagnosis of hypertension",
+              "Blood pressure >140/90 mmHg",
+              "No contraindications to medication",
+              "Regular follow-up with physician"
+            ],
+            "exclusions": [
+              "Pregnancy-related hypertension (separate coverage)",
+              "Secondary hypertension (requires specialist evaluation)",
+              "Hypertensive crisis (emergency coverage only)"
+            ]
+          }
+        },
+        {
+          "id": "DOC005",
+          "type": "DIABETES_GUIDELINES",
+          "title": "Diabetes Management Guidelines",
+          "description": "Coverage guidelines specific to diabetes treatment and management",
+          "date": "2024-01-01",
+          "file_size": "1.1 MB",
+          "pages": 4,
+          "status": "Current",
+          "category": "Clinical Guidelines",
+          "has_pdf": true,
+          "pdf_url": "/documents/diabetes-guidelines-anthem-2024.pdf",
+          "content": {
+            "covered_medications": [
+              "Metformin (first-line therapy)",
+              "Sulfonylureas (glipizide, glyburide)",
+              "DPP-4 inhibitors (sitagliptin, linagliptin)",
+              "GLP-1 receptor agonists (liraglutide, semaglutide)",
+              "SGLT2 inhibitors (empagliflozin, canagliflozin)",
+              "Insulin products (all types)",
+              "Thiazolidinediones (pioglitazone, rosiglitazone)"
+            ],
+            "monitoring_requirements": [
+              "Hemoglobin A1C every 3 months",
+              "Blood glucose monitoring",
+              "Kidney function tests",
+              "Lipid panel annually",
+              "Eye exam annually",
+              "Foot exam annually"
+            ],
+            "supplies_covered": [
+              "Blood glucose test strips",
+              "Lancets and lancing devices",
+              "Insulin syringes and pens",
+              "Continuous glucose monitors (with prior auth)",
+              "Insulin pumps (with prior auth)"
+            ],
+            "prior_auth_requirements": [
+              "GLP-1 receptor agonists",
+              "SGLT2 inhibitors",
+              "Insulin pumps",
+              "Continuous glucose monitors",
+              "Specialty diabetes medications"
+            ]
+          }
+        }
+      ]
+    },
+    "P012": {
+      "patient_name": "Maria Garcia",
+      "insurance_carrier": "UnitedHealthcare",
+      "plan_type": "HMO Silver",
+      "member_id": "UHC444555666",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31",
+      "documents": [
+        {
+          "id": "DOC006",
+          "type": "SBC",
+          "title": "Summary of Benefits and Coverage (SBC)",
+          "description": "Complete summary of benefits, coverage, and costs for HMO Silver plan",
+          "date": "2024-01-01",
+          "file_size": "2.1 MB",
+          "pages": 7,
+          "status": "Current",
+          "category": "Plan Information",
+          "has_pdf": true,
+          "pdf_url": "/documents/sbc-unitedhealthcare-hmo-silver-2024.pdf",
+          "content": {
+            "plan_name": "UnitedHealthcare HMO Silver Plan",
+            "plan_id": "UHC-HMO-SILVER-2024",
+            "deductible": "$2,500 individual / $5,000 family",
+            "out_of_pocket_max": "$7,000 individual / $14,000 family",
+            "premium": "$320/month",
+            "copays": {
+              "primary_care": "$25",
+              "specialist": "$50",
+              "emergency": "$250",
+              "urgent_care": "$75",
+              "mental_health": "$50",
+              "physical_therapy": "$50"
+            },
+            "prescription_tiers": {
+              "generic": "$12",
+              "preferred_brand": "$40",
+              "non_preferred": "$80",
+              "specialty": "35% coinsurance"
+            },
+            "covered_services": [
+              "Preventive care (100% covered)",
+              "Primary care visits",
+              "Specialist visits (with referral)",
+              "Emergency room visits",
+              "Urgent care",
+              "Prescription drugs",
+              "Lab work and X-rays",
+              "Mental health services",
+              "Maternity care",
+              "Rehabilitation services",
+              "Physical therapy (up to 20 visits/year)",
+              "Durable medical equipment",
+              "Home health care",
+              "Skilled nursing facility",
+              "Ambulance services - emergency transport ($100 copay), non-emergency transport (20% coinsurance)",
+              "Medical equipment and supplies - prosthetics, orthotics, diabetic supplies, wound care supplies, ostomy supplies",
+              "Diagnostic imaging - MRI, CT scans, ultrasounds, mammograms, bone density scans, nuclear medicine studies",
+              "Surgical procedures - inpatient surgery (20% coinsurance), outpatient surgery (20% coinsurance), same-day surgery",
+              "Anesthesia services - covered with surgical procedures, includes general, regional, and local anesthesia",
+              "Pathology services - laboratory analysis, tissue examination, cytology, histology, molecular diagnostics",
+              "Radiology services - X-rays, fluoroscopy, angiography, interventional radiology, radiation therapy",
+              "Cardiology services - EKGs, stress tests, echocardiograms, cardiac catheterization, pacemaker services",
+              "Oncology services - cancer treatment, chemotherapy, radiation therapy, immunotherapy, targeted therapy",
+              "Diabetes management - glucose monitors, test strips, insulin pumps, continuous glucose monitors, diabetes education",
+              "Chronic disease management - comprehensive care programs for diabetes, heart disease, COPD, kidney disease",
+              "Behavioral health services - counseling, therapy, psychiatric care, psychological testing, neuropsychological evaluation",
+              "Substance abuse treatment - inpatient detoxification, outpatient counseling, medication-assisted treatment, recovery programs",
+              "Telemedicine services - virtual visits with providers, remote monitoring, digital health consultations",
+              "Second opinion services - specialist consultations for complex conditions, treatment plan reviews",
+              "Clinical trials - approved research studies, investigational treatments, experimental therapies",
+              "Genetic testing - when medically necessary, includes carrier screening, diagnostic testing, pharmacogenomic testing",
+              "Fertility services - limited coverage for infertility diagnosis and treatment, in vitro fertilization (IVF) with restrictions",
+              "Gender affirmation services - hormone therapy, gender confirmation surgery, mental health support",
+              "Travel medicine - immunizations for international travel, travel health consultations, malaria prophylaxis",
+              "Nutrition counseling - registered dietitian services, medical nutrition therapy, weight management programs",
+              "Smoking cessation programs - counseling, medications, nicotine replacement therapy, behavioral support",
+              "Weight management programs - medically supervised weight loss, bariatric surgery evaluation, nutrition counseling",
+              "Sleep studies - diagnostic sleep studies, CPAP titration, sleep disorder treatment, sleep medicine consultations",
+              "Allergy testing and treatment - skin testing, blood testing, immunotherapy, allergy shots, environmental controls",
+              "Dermatology services - skin condition treatment, mole removal, skin cancer screening, cosmetic procedures (limited)",
+              "Podiatry services - foot and ankle care, diabetic foot care, custom orthotics, nail care",
+              "Chiropractic services - spinal manipulation therapy, musculoskeletal treatment, pain management",
+              "Acupuncture services - traditional Chinese medicine, pain management, stress reduction, wellness promotion",
+              "Physical therapy - rehabilitation services, injury recovery, post-surgical therapy, chronic pain management",
+              "Occupational therapy - functional improvement, adaptive equipment training, workplace modifications",
+              "Speech therapy - communication disorders, swallowing disorders, voice therapy, cognitive-communication therapy",
+              "Audiology services - hearing testing, hearing aid evaluation, auditory processing assessment, tinnitus management",
+              "Vision services - comprehensive eye exams, glaucoma screening, diabetic eye exams, corrective lens coverage (limited)",
+              "Dental services - basic dental care, preventive services, restorative procedures, oral surgery (limited coverage)",
+              "Pharmacy services - prescription drug management, medication therapy management, drug interaction screening",
+              "Mail order pharmacy - 90-day supply delivery, maintenance medications, specialty medications",
+              "Specialty pharmacy - complex medication management, injectable medications, biologic medications",
+              "Prior authorization services - coverage determination, medical necessity review, formulary exceptions",
+              "Case management - complex condition coordination, care planning, resource coordination, discharge planning",
+              "Disease management - chronic condition support, patient education, self-management training, monitoring programs",
+              "Care coordination - provider communication, care plan development, transition management, follow-up care",
+              "Patient advocacy - assistance with coverage issues, appeals support, benefit interpretation, provider referrals",
+              "Language services - interpreter services, translation services, multilingual support, cultural competency training",
+              "Cultural competency - culturally appropriate care, health literacy support, community health outreach",
+              "Accessibility services - accommodations for disabilities, assistive technology, communication aids, mobility assistance",
+              "Transportation services - medical appointment transport, non-emergency medical transportation, mileage reimbursement",
+              "Meal services - medically necessary nutrition support, therapeutic diets, enteral nutrition, parenteral nutrition",
+              "Home modifications - accessibility improvements, safety modifications, adaptive equipment installation",
+              "Assistive technology - communication devices, mobility aids, computer access, environmental controls",
+              "Respite care - temporary care for caregivers, adult day care, in-home respite, facility-based respite",
+              "Adult day care - supervised care during the day, social activities, health monitoring, personal care",
+              "Memory care - specialized dementia care, Alzheimer's support, cognitive stimulation, behavioral management",
+              "Palliative care - comfort and symptom management, pain control, quality of life improvement, family support",
+              "Bereavement counseling - grief support services, family counseling, memorial services, support groups",
+              "Family planning services - contraception counseling, contraceptive methods, pregnancy testing, preconception care",
+              "Prenatal care - comprehensive pregnancy care, prenatal visits, genetic screening, childbirth education",
+              "Postnatal care - recovery and newborn care, breastfeeding support, postpartum depression screening, infant care",
+              "Pediatric services - specialized children's healthcare, developmental screening, immunizations, school health",
+              "Adolescent services - teen-specific healthcare, confidential services, reproductive health, mental health support"
+            ],
+            "exclusions": [
+              "Out-of-network care (except emergencies)",
+              "Cosmetic surgery",
+              "Weight loss surgery (unless medically necessary)",
+              "Experimental treatments",
+              "Dental care (separate plan available)",
+              "Vision care (separate plan available)",
+              "Hearing aids",
+              "Long-term care"
+            ]
+          }
+        },
+        {
+          "id": "DOC007",
+          "type": "FORMULARY",
+          "title": "2024 Prescription Drug Formulary",
+          "description": "Complete list of covered prescription medications and tiers",
+          "date": "2024-01-01",
+          "file_size": "1.9 MB",
+          "pages": 42,
+          "status": "Current",
+          "category": "Prescription Coverage",
+          "has_pdf": true,
+          "pdf_url": "/documents/formulary-unitedhealthcare-2024.pdf",
+          "content": {
+            "tier_1_generic": [
+              "Calcium Carbonate - $12",
+              "Vitamin D3 (cholecalciferol) - $12",
+              "Ibuprofen - $12",
+              "Acetaminophen - $12",
+              "Naproxen - $12",
+              "Tramadol - $12",
+              "Alendronate (age 65+ or high risk) - $12",
+              "Risedronate (with bone density scan) - $12",
+              "Ibandronate (with prior auth) - $12",
+              "Raloxifene (with prior auth) - $12",
+              "Calcitonin (with prior auth) - $12",
+              "Teriparatide (with prior auth) - $12"
+            ],
+            "tier_2_preferred_brand": [
+              "Caltrate (calcium carbonate) - $40",
+              "Citracal (calcium citrate) - $40",
+              "Advil (ibuprofen) - $40",
+              "Tylenol (acetaminophen) - $40",
+              "Aleve (naproxen) - $40",
+              "Ultram (tramadol) - $40",
+              "Fosamax (alendronate) - $40",
+              "Actonel (risedronate) - $40"
+            ],
+            "tier_3_non_preferred": [
+              "Boniva (ibandronate) - $80",
+              "Prolia (denosumab) - $80",
+              "Forteo (teriparatide) - $80",
+              "Evenity (romosozumab) - $80",
+              "Tymlos (abaloparatide) - $80"
+            ],
+            "tier_4_specialty": [
+              "Specialty bone medications - 35% coinsurance",
+              "Injectable medications - 35% coinsurance",
+              "Biologic medications - 35% coinsurance"
+            ],
+            "prior_auth_required": [
+              "Bisphosphonates for patients under 65",
+              "Specialty bone medications",
+              "High-dose pain medications",
+              "Injectable medications",
+              "Biologic medications"
+            ],
+            "step_therapy": [
+              "Must try generic before brand",
+              "Must try oral before injectable",
+              "Must try calcium/vitamin D before bisphosphonates",
+              "Must try first-line bisphosphonates before specialty medications"
+            ]
+          }
+        },
+        {
+          "id": "DOC008",
+          "type": "PLAN_DETAILS",
+          "title": "Detailed Plan Information",
+          "description": "Comprehensive plan details including network providers and benefits",
+          "date": "2024-01-01",
+          "file_size": "2.8 MB",
+          "pages": 10,
+          "status": "Current",
+          "category": "Plan Information",
+          "has_pdf": true,
+          "pdf_url": "/documents/plan-details-unitedhealthcare-hmo-silver-2024.pdf",
+          "content": {
+            "network_providers": "UnitedHealthcare HMO Network",
+            "coverage_area": "Massachusetts and surrounding states",
+            "pharmacy_network": "CVS, Walgreens, Rite Aid, Express Scripts",
+            "specialty_pharmacy": "Express Scripts Specialty Pharmacy",
+            "mail_order": "90-day supply available",
+            "prior_authorization": "Required for certain medications and procedures",
+            "appeals_process": "Internal and external appeals available",
+            "grievance_process": "Customer service and formal grievance process",
+            "coverage_verification": "Real-time eligibility verification available",
+            "cost_sharing": "Copays, coinsurance, and deductibles apply",
+            "referral_required": "Specialist visits require PCP referral",
+            "network_hospitals": [
+              "Massachusetts General Hospital",
+              "Brigham and Women's Hospital",
+              "Beth Israel Deaconess Medical Center",
+              "Tufts Medical Center",
+              "Boston Medical Center"
+            ],
+            "specialty_centers": [
+              "Dana-Farber Cancer Institute",
+              "Joslin Diabetes Center",
+              "Mass Eye and Ear",
+              "Spaulding Rehabilitation Hospital"
+            ]
+          }
+        },
+        {
+          "id": "DOC009",
+          "type": "FRACTURE_GUIDELINES",
+          "title": "Fracture and Bone Health Guidelines",
+          "description": "Coverage guidelines specific to fracture treatment and bone health",
+          "date": "2024-01-01",
+          "file_size": "1.2 MB",
+          "pages": 4,
+          "status": "Current",
+          "category": "Clinical Guidelines",
+          "has_pdf": true,
+          "pdf_url": "/documents/fracture-guidelines-unitedhealthcare-2024.pdf",
+          "content": {
+            "covered_medications": [
+              "Calcium supplements (no restrictions)",
+              "Vitamin D3 (lab values required for high doses)",
+              "Bisphosphonates (age 65+ or high fracture risk)",
+              "Pain medications (ibuprofen, naproxen, tramadol)",
+              "Anti-inflammatory medications",
+              "Muscle relaxants (with prior auth)",
+              "Topical pain medications"
+            ],
+            "prior_auth_requirements": [
+              "Bisphosphonates for patients under 65",
+              "Specialty bone medications (Prolia, Forteo)",
+              "High-dose pain medications",
+              "Injectable medications",
+              "Specialty pharmacy medications"
+            ],
+            "monitoring_requirements": [
+              "Bone density scans (DEXA)",
+              "Calcium and vitamin D levels",
+              "Kidney function tests",
+              "Fracture risk assessment",
+              "Follow-up X-rays as needed"
+            ],
+            "physical_therapy": [
+              "Up to 20 visits per year",
+              "Prior authorization required after 10 visits",
+              "Must be prescribed by physician",
+              "Coverage for rehabilitation equipment",
+              "Home exercise program included"
+            ],
+            "durable_medical_equipment": [
+              "Crutches and walkers",
+              "Casts and splints",
+              "Mobility aids",
+              "Orthopedic devices",
+              "Prior authorization required"
+            ],
+            "coverage_criteria": [
+              "Documented fracture or bone condition",
+              "Physician prescription required",
+              "Age-appropriate screening",
+              "Regular follow-up with physician"
+            ]
+          }
+        },
+        {
+          "id": "DOC010",
+          "type": "EMERGENCY_COVERAGE",
+          "title": "Emergency and Urgent Care Coverage",
+          "description": "Coverage details for emergency and urgent care services",
+          "date": "2024-01-01",
+          "file_size": "0.9 MB",
+          "pages": 2,
+          "status": "Current",
+          "category": "Emergency Coverage",
+          "has_pdf": true,
+          "pdf_url": "/documents/emergency-coverage-unitedhealthcare-2024.pdf",
+          "content": {
+            "emergency_room": "$250 copay per visit",
+            "urgent_care": "$75 copay per visit",
+            "ambulance": "Covered with $100 copay",
+            "emergency_medications": "Covered at emergency copay rate",
+            "follow_up_care": "Covered according to plan benefits",
+            "out_of_network": "Covered for true emergencies only",
+            "notification_required": "Notify within 48 hours of emergency visit",
+            "covered_emergencies": [
+              "Heart attack",
+              "Stroke",
+              "Severe injury",
+              "Unconsciousness",
+              "Severe bleeding",
+              "Difficulty breathing",
+              "Severe pain",
+              "Poisoning"
+            ]
+          }
+        },
+        {
+          "id": "DOC011",
+          "type": "PHYSICAL_THERAPY",
+          "title": "Physical Therapy Coverage Guidelines",
+          "description": "Coverage guidelines for physical therapy and rehabilitation services",
+          "date": "2024-01-01",
+          "file_size": "0.7 MB",
+          "pages": 2,
+          "status": "Current",
+          "category": "Clinical Guidelines",
+          "has_pdf": true,
+          "pdf_url": "/documents/physical-therapy-guidelines-unitedhealthcare-2024.pdf",
+          "content": {
+            "covered_services": [
+              "Physical therapy evaluation",
+              "Therapeutic exercises",
+              "Manual therapy",
+              "Gait training",
+              "Balance training",
+              "Pain management techniques",
+              "Home exercise program",
+              "Equipment training"
+            ],
+            "visit_limits": [
+              "Up to 20 visits per year",
+              "Prior authorization required after 10 visits",
+              "Additional visits with medical necessity",
+              "Annual limit resets January 1st"
+            ],
+            "prior_authorization": [
+              "Required after 10 visits",
+              "Physician prescription required",
+              "Treatment plan must be submitted",
+              "Progress notes required for continuation"
+            ],
+            "covered_conditions": [
+              "Fractures and bone injuries",
+              "Post-surgical rehabilitation",
+              "Sports injuries",
+              "Chronic pain conditions",
+              "Balance disorders",
+              "Mobility impairments"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

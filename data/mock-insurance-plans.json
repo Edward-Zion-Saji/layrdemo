@@ -1,0 +1,296 @@
+{
+  "insurance_plans": {
+    "P001": {
+      "medical": {
+        "annual_deductible": 1500,
+        "oop_maximum": 6000,
+        "deductible_used": 450,
+        "oop_used": 1200,
+        "copays": {
+          "primary_care": 25,
+          "specialist": 50,
+          "emergency": 250,
+          "urgent_care": 75
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 10,
+          "preferred_brand": 35,
+          "non_preferred": 70,
+          "specialty": "30% coinsurance"
+        },
+        "annual_deductible": 500,
+        "deductible_used": 150,
+        "bone_fracture_exceptions": {
+          "bisphosphonates": {
+            "alendronate": "Covered with age 65+ or high fracture risk",
+            "risedronate": "Covered with bone density scan",
+            "ibandronate": "Prior auth required, must try generic first"
+          },
+          "specialty_medications": {
+            "denosumab": "Prior auth required, high fracture risk only",
+            "teriparatide": "Prior auth required, severe osteoporosis only, 24-month lifetime limit"
+          },
+          "controlled_substances": {
+            "opioids": "Prior auth required, 7-day supply limit, opioid risk assessment"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    },
+    "P002": {
+      "medical": {
+        "annual_deductible": 3000,
+        "oop_maximum": 8000,
+        "deductible_used": 1200,
+        "oop_used": 2400,
+        "copays": {
+          "primary_care": 20,
+          "specialist": 40,
+          "emergency": 200,
+          "urgent_care": 50
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 15,
+          "preferred_brand": 45,
+          "non_preferred": 90,
+          "specialty": "40% coinsurance"
+        },
+        "annual_deductible": 750,
+        "deductible_used": 300,
+        "bone_fracture_exceptions": {
+          "bisphosphonates": {
+            "alendronate": "Covered with age 65+ or high fracture risk",
+            "risedronate": "Covered with bone density scan",
+            "ibandronate": "Prior auth required, must try generic first"
+          },
+          "specialty_medications": {
+            "denosumab": "Prior auth required, high fracture risk only",
+            "teriparatide": "Prior auth required, severe osteoporosis only, 24-month lifetime limit"
+          },
+          "controlled_substances": {
+            "opioids": "Prior auth required, 5-day supply limit, opioid risk assessment"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    },
+    "P003": {
+      "medical": {
+        "annual_deductible": 5000,
+        "oop_maximum": 10000,
+        "deductible_used": 2800,
+        "oop_used": 4200,
+        "copays": {
+          "primary_care": 30,
+          "specialist": 60,
+          "emergency": 300,
+          "urgent_care": 100
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 20,
+          "preferred_brand": 60,
+          "non_preferred": 120,
+          "specialty": "50% coinsurance"
+        },
+        "annual_deductible": 1000,
+        "deductible_used": 500,
+        "bone_fracture_exceptions": {
+          "bisphosphonates": {
+            "alendronate": "Covered with age 65+ or high fracture risk",
+            "risedronate": "Covered with bone density scan",
+            "ibandronate": "Prior auth required, must try generic first"
+          },
+          "specialty_medications": {
+            "denosumab": "Prior auth required, high fracture risk only",
+            "teriparatide": "Prior auth required, severe osteoporosis only, 24-month lifetime limit"
+          },
+          "controlled_substances": {
+            "opioids": "Prior auth required, 3-day supply limit, opioid risk assessment"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    },
+    "P004": {
+      "medical": {
+        "annual_deductible": 1000,
+        "oop_maximum": 4000,
+        "deductible_used": 200,
+        "oop_used": 800,
+        "copays": {
+          "primary_care": 15,
+          "specialist": 30,
+          "emergency": 150,
+          "urgent_care": 40
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 5,
+          "preferred_brand": 25,
+          "non_preferred": 50,
+          "specialty": "20% coinsurance"
+        },
+        "annual_deductible": 250,
+        "deductible_used": 50,
+        "bone_fracture_exceptions": {
+          "bisphosphonates": {
+            "alendronate": "Covered with age 65+ or high fracture risk",
+            "risedronate": "Covered with bone density scan",
+            "ibandronate": "Prior auth required, must try generic first"
+          },
+          "specialty_medications": {
+            "denosumab": "Prior auth required, high fracture risk only",
+            "teriparatide": "Prior auth required, severe osteoporosis only, 24-month lifetime limit"
+          },
+          "controlled_substances": {
+            "opioids": "Prior auth required, 7-day supply limit, opioid risk assessment"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    },
+    "P005": {
+      "medical": {
+        "annual_deductible": 2000,
+        "oop_maximum": 7000,
+        "deductible_used": 800,
+        "oop_used": 1800,
+        "copays": {
+          "primary_care": 20,
+          "specialist": 40,
+          "emergency": 200,
+          "urgent_care": 60
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 12,
+          "preferred_brand": 40,
+          "non_preferred": 80,
+          "specialty": "35% coinsurance"
+        },
+        "annual_deductible": 600,
+        "deductible_used": 200,
+        "bone_fracture_exceptions": {
+          "bisphosphonates": {
+            "alendronate": "Covered with age 65+ or high fracture risk",
+            "risedronate": "Covered with bone density scan",
+            "ibandronate": "Prior auth required, must try generic first"
+          },
+          "specialty_medications": {
+            "denosumab": "Prior auth required, high fracture risk only",
+            "teriparatide": "Prior auth required, severe osteoporosis only, 24-month lifetime limit"
+          },
+          "controlled_substances": {
+            "opioids": "Prior auth required, 5-day supply limit, opioid risk assessment"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    },
+    "P011": {
+      "medical": {
+        "annual_deductible": 1200,
+        "oop_maximum": 5000,
+        "deductible_used": 300,
+        "oop_used": 800,
+        "copays": {
+          "primary_care": 20,
+          "specialist": 40,
+          "emergency": 200,
+          "urgent_care": 60
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 8,
+          "preferred_brand": 30,
+          "non_preferred": 60,
+          "specialty": "25% coinsurance"
+        },
+        "annual_deductible": 400,
+        "deductible_used": 100,
+        "hypertension_exceptions": {
+          "ace_inhibitors": {
+            "lisinopril": "Covered with no restrictions",
+            "enalapril": "Covered with no restrictions",
+            "ramipril": "Covered with no restrictions"
+          },
+          "statins": {
+            "atorvastatin": "Covered with prior auth for high doses",
+            "simvastatin": "Covered with no restrictions",
+            "rosuvastatin": "Covered with prior auth"
+          },
+          "diabetes_medications": {
+            "metformin": "Covered with no restrictions",
+            "glipizide": "Covered with no restrictions",
+            "insulin": "Covered with prior auth"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    },
+    "P012": {
+      "medical": {
+        "annual_deductible": 2500,
+        "oop_maximum": 7000,
+        "deductible_used": 800,
+        "oop_used": 1500,
+        "copays": {
+          "primary_care": 25,
+          "specialist": 50,
+          "emergency": 250,
+          "urgent_care": 75
+        }
+      },
+      "prescription": {
+        "tiers": {
+          "generic": 12,
+          "preferred_brand": 40,
+          "non_preferred": 80,
+          "specialty": "35% coinsurance"
+        },
+        "annual_deductible": 600,
+        "deductible_used": 200,
+        "fracture_exceptions": {
+          "bone_health": {
+            "calcium_carbonate": "Covered with no restrictions",
+            "vitamin_d3": "Covered with lab values for high doses",
+            "alendronate": "Covered with age 65+ or high fracture risk"
+          },
+          "pain_management": {
+            "ibuprofen": "Covered with no restrictions",
+            "naproxen": "Covered with no restrictions",
+            "tramadol": "Covered with prior auth"
+          },
+          "physical_therapy": {
+            "pt_visits": "Covered up to 20 visits per year",
+            "durable_medical_equipment": "Covered with prior auth"
+          }
+        }
+      },
+      "network_status": "in_network",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31"
+    }
+  }
+}

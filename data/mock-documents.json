@@ -1,0 +1,375 @@
+{
+  "documents": {
+    "P011": {
+      "patient_name": "John Smith",
+      "insurance_carrier": "Anthem Blue Cross Blue Shield",
+      "plan_type": "PPO Gold",
+      "member_id": "ABC111222333",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31",
+      "documents": [
+        {
+          "id": "DOC001",
+          "type": "SBC",
+          "title": "Summary of Benefits and Coverage (SBC)",
+          "description": "Complete summary of benefits, coverage, and costs for PPO Gold plan",
+          "date": "2024-01-01",
+          "file_size": "2.3 MB",
+          "pages": 8,
+          "status": "Current",
+          "category": "Plan Information",
+          "content": {
+            "plan_name": "Anthem PPO Gold Plan",
+            "deductible": "$1,200 individual / $2,400 family",
+            "out_of_pocket_max": "$5,000 individual / $10,000 family",
+            "premium": "$450/month",
+            "copays": {
+              "primary_care": "$20",
+              "specialist": "$40",
+              "emergency": "$200",
+              "urgent_care": "$60"
+            },
+            "prescription_tiers": {
+              "generic": "$8",
+              "preferred_brand": "$30",
+              "non_preferred": "$60",
+              "specialty": "25% coinsurance"
+            },
+            "covered_services": [
+              "Preventive care (100% covered)",
+              "Primary care visits",
+              "Specialist visits",
+              "Emergency room visits",
+              "Urgent care",
+              "Prescription drugs",
+              "Lab work and X-rays",
+              "Mental health services",
+              "Maternity care",
+              "Rehabilitation services"
+            ],
+            "exclusions": [
+              "Cosmetic surgery",
+              "Weight loss surgery (unless medically necessary)",
+              "Experimental treatments",
+              "Dental care (separate plan available)",
+              "Vision care (separate plan available)"
+            ]
+          }
+        },
+        {
+          "id": "DOC002",
+          "type": "FORMULARY",
+          "title": "2024 Prescription Drug Formulary",
+          "description": "Complete list of covered prescription medications and tiers",
+          "date": "2024-01-01",
+          "file_size": "1.8 MB",
+          "pages": 45,
+          "status": "Current",
+          "category": "Prescription Coverage",
+          "content": {
+            "tier_1_generic": [
+              "Lisinopril (ACE inhibitor)",
+              "Atorvastatin (statin)",
+              "Metformin (diabetes)",
+              "Amlodipine (calcium channel blocker)",
+              "Hydrochlorothiazide (diuretic)",
+              "Losartan (ARB)",
+              "Simvastatin (statin)",
+              "Glipizide (diabetes)"
+            ],
+            "tier_2_preferred_brand": [
+              "Norvasc (amlodipine)",
+              "Zestril (lisinopril)",
+              "Glucophage (metformin)",
+              "Lipitor (atorvastatin)",
+              "Cozaar (losartan)"
+            ],
+            "tier_3_non_preferred": [
+              "Crestor (rosuvastatin)",
+              "Diovan (valsartan)",
+              "Avapro (irbesartan)",
+              "Tricor (fenofibrate)"
+            ],
+            "tier_4_specialty": [
+              "Insulin products",
+              "Injectable diabetes medications",
+              "Specialty cardiovascular drugs"
+            ],
+            "prior_auth_required": [
+              "High-dose statins (>40mg)",
+              "Specialty diabetes medications",
+              "Injectable medications",
+              "Non-formulary drugs"
+            ],
+            "step_therapy": [
+              "Must try generic before brand",
+              "Must try preferred before non-preferred",
+              "Must try oral before injectable"
+            ]
+          }
+        },
+        {
+          "id": "DOC003",
+          "type": "PLAN_DETAILS",
+          "title": "Detailed Plan Information",
+          "description": "Comprehensive plan details including network providers and benefits",
+          "date": "2024-01-01",
+          "file_size": "3.1 MB",
+          "pages": 12,
+          "status": "Current",
+          "category": "Plan Information",
+          "content": {
+            "network_providers": "Anthem PPO Network",
+            "coverage_area": "Massachusetts and surrounding states",
+            "pharmacy_network": "CVS, Walgreens, Rite Aid, Express Scripts",
+            "specialty_pharmacy": "Express Scripts Specialty Pharmacy",
+            "mail_order": "90-day supply available",
+            "prior_authorization": "Required for certain medications and procedures",
+            "appeals_process": "Internal and external appeals available",
+            "grievance_process": "Customer service and formal grievance process",
+            "coverage_verification": "Real-time eligibility verification available",
+            "cost_sharing": "Copays, coinsurance, and deductibles apply"
+          }
+        },
+        {
+          "id": "DOC004",
+          "type": "HYPERTENSION_GUIDELINES",
+          "title": "Hypertension Management Guidelines",
+          "description": "Coverage guidelines specific to hypertension treatment",
+          "date": "2024-01-01",
+          "file_size": "0.8 MB",
+          "pages": 3,
+          "status": "Current",
+          "category": "Clinical Guidelines",
+          "content": {
+            "covered_medications": [
+              "ACE inhibitors (lisinopril, enalapril, ramipril)",
+              "ARBs (losartan, valsartan, irbesartan)",
+              "Calcium channel blockers (amlodipine, diltiazem)",
+              "Diuretics (hydrochlorothiazide, chlorthalidone)",
+              "Beta blockers (metoprolol, atenolol)"
+            ],
+            "prior_auth_requirements": [
+              "High-dose ACE inhibitors (>40mg)",
+              "Specialty ARBs",
+              "Combination medications",
+              "Non-formulary alternatives"
+            ],
+            "monitoring_requirements": [
+              "Blood pressure monitoring",
+              "Kidney function tests",
+              "Electrolyte monitoring",
+              "Annual comprehensive metabolic panel"
+            ],
+            "step_therapy": [
+              "Start with generic ACE inhibitor",
+              "Add diuretic if needed",
+              "Consider ARB if ACE inhibitor not tolerated",
+              "Add calcium channel blocker if needed"
+            ]
+          }
+        }
+      ]
+    },
+    "P012": {
+      "patient_name": "Maria Garcia",
+      "insurance_carrier": "UnitedHealthcare",
+      "plan_type": "HMO Silver",
+      "member_id": "UHC444555666",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31",
+      "documents": [
+        {
+          "id": "DOC005",
+          "type": "SBC",
+          "title": "Summary of Benefits and Coverage (SBC)",
+          "description": "Complete summary of benefits, coverage, and costs for HMO Silver plan",
+          "date": "2024-01-01",
+          "file_size": "2.1 MB",
+          "pages": 7,
+          "status": "Current",
+          "category": "Plan Information",
+          "content": {
+            "plan_name": "UnitedHealthcare HMO Silver Plan",
+            "deductible": "$2,500 individual / $5,000 family",
+            "out_of_pocket_max": "$7,000 individual / $14,000 family",
+            "premium": "$320/month",
+            "copays": {
+              "primary_care": "$25",
+              "specialist": "$50",
+              "emergency": "$250",
+              "urgent_care": "$75"
+            },
+            "prescription_tiers": {
+              "generic": "$12",
+              "preferred_brand": "$40",
+              "non_preferred": "$80",
+              "specialty": "35% coinsurance"
+            },
+            "covered_services": [
+              "Preventive care (100% covered)",
+              "Primary care visits",
+              "Specialist visits (with referral)",
+              "Emergency room visits",
+              "Urgent care",
+              "Prescription drugs",
+              "Lab work and X-rays",
+              "Mental health services",
+              "Maternity care",
+              "Rehabilitation services",
+              "Physical therapy (up to 20 visits/year)"
+            ],
+            "exclusions": [
+              "Out-of-network care (except emergencies)",
+              "Cosmetic surgery",
+              "Weight loss surgery (unless medically necessary)",
+              "Experimental treatments",
+              "Dental care (separate plan available)",
+              "Vision care (separate plan available)"
+            ]
+          }
+        },
+        {
+          "id": "DOC006",
+          "type": "FORMULARY",
+          "title": "2024 Prescription Drug Formulary",
+          "description": "Complete list of covered prescription medications and tiers",
+          "date": "2024-01-01",
+          "file_size": "1.9 MB",
+          "pages": 42,
+          "status": "Current",
+          "category": "Prescription Coverage",
+          "content": {
+            "tier_1_generic": [
+              "Calcium Carbonate",
+              "Vitamin D3 (cholecalciferol)",
+              "Ibuprofen",
+              "Acetaminophen",
+              "Naproxen",
+              "Tramadol",
+              "Alendronate (age 65+ or high risk)",
+              "Risedronate (with bone density scan)"
+            ],
+            "tier_2_preferred_brand": [
+              "Caltrate (calcium carbonate)",
+              "Citracal (calcium citrate)",
+              "Advil (ibuprofen)",
+              "Tylenol (acetaminophen)",
+              "Aleve (naproxen)"
+            ],
+            "tier_3_non_preferred": [
+              "Fosamax (alendronate)",
+              "Actonel (risedronate)",
+              "Boniva (ibandronate)",
+              "Prolia (denosumab)"
+            ],
+            "tier_4_specialty": [
+              "Forteo (teriparatide)",
+              "Specialty bone medications",
+              "Injectable medications"
+            ],
+            "prior_auth_required": [
+              "Bisphosphonates (age restrictions)",
+              "Specialty bone medications",
+              "High-dose pain medications",
+              "Injectable medications"
+            ],
+            "step_therapy": [
+              "Must try generic before brand",
+              "Must try oral before injectable",
+              "Must try calcium/vitamin D before bisphosphonates"
+            ]
+          }
+        },
+        {
+          "id": "DOC007",
+          "type": "PLAN_DETAILS",
+          "title": "Detailed Plan Information",
+          "description": "Comprehensive plan details including network providers and benefits",
+          "date": "2024-01-01",
+          "file_size": "2.8 MB",
+          "pages": 10,
+          "status": "Current",
+          "category": "Plan Information",
+          "content": {
+            "network_providers": "UnitedHealthcare HMO Network",
+            "coverage_area": "Massachusetts and surrounding states",
+            "pharmacy_network": "CVS, Walgreens, Rite Aid, Express Scripts",
+            "specialty_pharmacy": "Express Scripts Specialty Pharmacy",
+            "mail_order": "90-day supply available",
+            "prior_authorization": "Required for certain medications and procedures",
+            "appeals_process": "Internal and external appeals available",
+            "grievance_process": "Customer service and formal grievance process",
+            "coverage_verification": "Real-time eligibility verification available",
+            "cost_sharing": "Copays, coinsurance, and deductibles apply",
+            "referral_required": "Specialist visits require PCP referral"
+          }
+        },
+        {
+          "id": "DOC008",
+          "type": "FRACTURE_GUIDELINES",
+          "title": "Fracture and Bone Health Guidelines",
+          "description": "Coverage guidelines specific to fracture treatment and bone health",
+          "date": "2024-01-01",
+          "file_size": "1.2 MB",
+          "pages": 4,
+          "status": "Current",
+          "category": "Clinical Guidelines",
+          "content": {
+            "covered_medications": [
+              "Calcium supplements (no restrictions)",
+              "Vitamin D3 (lab values required for high doses)",
+              "Bisphosphonates (age 65+ or high fracture risk)",
+              "Pain medications (ibuprofen, naproxen, tramadol)",
+              "Anti-inflammatory medications"
+            ],
+            "prior_auth_requirements": [
+              "Bisphosphonates for patients under 65",
+              "Specialty bone medications (Prolia, Forteo)",
+              "High-dose pain medications",
+              "Injectable medications"
+            ],
+            "monitoring_requirements": [
+              "Bone density scans (DEXA)",
+              "Calcium and vitamin D levels",
+              "Kidney function tests",
+              "Fracture risk assessment"
+            ],
+            "physical_therapy": [
+              "Up to 20 visits per year",
+              "Prior authorization required after 10 visits",
+              "Must be prescribed by physician",
+              "Coverage for rehabilitation equipment"
+            ],
+            "durable_medical_equipment": [
+              "Crutches and walkers",
+              "Casts and splints",
+              "Mobility aids",
+              "Prior authorization required"
+            ]
+          }
+        },
+        {
+          "id": "DOC009",
+          "type": "EMERGENCY_COVERAGE",
+          "title": "Emergency and Urgent Care Coverage",
+          "description": "Coverage details for emergency and urgent care services",
+          "date": "2024-01-01",
+          "file_size": "0.9 MB",
+          "pages": 2,
+          "status": "Current",
+          "category": "Emergency Coverage",
+          "content": {
+            "emergency_room": "$250 copay per visit",
+            "urgent_care": "$75 copay per visit",
+            "ambulance": "Covered with $100 copay",
+            "emergency_medications": "Covered at emergency copay rate",
+            "follow_up_care": "Covered according to plan benefits",
+            "out_of_network": "Covered for true emergencies only",
+            "notification_required": "Notify within 48 hours of emergency visit"
+          }
+        }
+      ]
+    }
+  }
+}

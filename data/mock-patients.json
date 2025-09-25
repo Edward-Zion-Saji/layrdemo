@@ -1,0 +1,369 @@
+{
+  "patients": [
+    {
+      "id": "P001",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "dob": "1985-03-15",
+      "phone": "(555) 123-4567",
+      "address": {
+        "street": "123 Main Street",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101"
+      },
+      "insurance": {
+        "carrier": "Anthem BCBS",
+        "member_id": "ABC123456789",
+        "group_number": "GRP001",
+        "plan_type": "PPO Gold",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-01-15"
+      }
+    },
+    {
+      "id": "P002",
+      "name": "Michael Chen",
+      "email": "michael.chen@email.com",
+      "dob": "1978-11-22",
+      "phone": "(555) 234-5678",
+      "address": {
+        "street": "456 Oak Avenue",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94102"
+      },
+      "insurance": {
+        "carrier": "UnitedHealthcare",
+        "member_id": "UHC987654321",
+        "group_number": "GRP002",
+        "plan_type": "HMO Silver",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": false,
+        "consent_date": "2024-02-01"
+      }
+    },
+    {
+      "id": "P003",
+      "name": "Emily Rodriguez",
+      "email": "emily.rodriguez@email.com",
+      "dob": "1992-07-08",
+      "phone": "(555) 345-6789",
+      "address": {
+        "street": "789 Pine Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "73301"
+      },
+      "insurance": {
+        "carrier": "Aetna",
+        "member_id": "AET456789123",
+        "group_number": "GRP003",
+        "plan_type": "PPO Bronze",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-01-20"
+      }
+    },
+    {
+      "id": "P004",
+      "name": "David Thompson",
+      "email": "david.thompson@email.com",
+      "dob": "1965-12-03",
+      "phone": "(555) 456-7890",
+      "address": {
+        "street": "321 Elm Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601"
+      },
+      "insurance": {
+        "carrier": "Cigna",
+        "member_id": "CIG789123456",
+        "group_number": "GRP004",
+        "plan_type": "PPO Platinum",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-01-10"
+      }
+    },
+    {
+      "id": "P005",
+      "name": "Lisa Wang",
+      "email": "lisa.wang@email.com",
+      "dob": "1988-05-18",
+      "phone": "(555) 567-8901",
+      "address": {
+        "street": "654 Maple Lane",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101"
+      },
+      "insurance": {
+        "carrier": "Blue Cross Blue Shield",
+        "member_id": "BCBS321654987",
+        "group_number": "GRP005",
+        "plan_type": "HMO Gold",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-01-25"
+      }
+    },
+    {
+      "id": "P006",
+      "name": "Margaret O'Brien",
+      "email": "margaret.obrien@email.com",
+      "dob": "1952-09-14",
+      "phone": "(555) 678-9012",
+      "address": {
+        "street": "987 Cedar Court",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108"
+      },
+      "insurance": {
+        "carrier": "Anthem BCBS",
+        "member_id": "ABC789123456",
+        "group_number": "GRP006",
+        "plan_type": "PPO Gold",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-02-15"
+      },
+      "medical_conditions": ["Osteoporosis", "Post-menopausal", "Previous hip fracture"],
+      "current_medications": ["Calcium Carbonate", "Vitamin D3"],
+      "fracture_risk": "High",
+      "bone_density_t_score": -2.8
+    },
+    {
+      "id": "P007",
+      "name": "Robert Martinez",
+      "email": "robert.martinez@email.com",
+      "dob": "1948-03-22",
+      "phone": "(555) 789-0123",
+      "address": {
+        "street": "456 Birch Street",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33101"
+      },
+      "insurance": {
+        "carrier": "UnitedHealthcare",
+        "member_id": "UHC456789123",
+        "group_number": "GRP007",
+        "plan_type": "HMO Silver",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-02-20"
+      },
+      "medical_conditions": ["Severe Osteoporosis", "Vertebral fractures", "Chronic kidney disease"],
+      "current_medications": ["Alendronate", "Calcium Carbonate", "Vitamin D3"],
+      "fracture_risk": "Very High",
+      "bone_density_t_score": -3.2,
+      "previous_fractures": ["L2 vertebral fracture (2023)", "Right wrist fracture (2022)"]
+    },
+    {
+      "id": "P008",
+      "name": "Jennifer Kim",
+      "email": "jennifer.kim@email.com",
+      "dob": "1975-11-30",
+      "phone": "(555) 890-1234",
+      "address": {
+        "street": "321 Spruce Avenue",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80201"
+      },
+      "insurance": {
+        "carrier": "Aetna",
+        "member_id": "AET789123456",
+        "group_number": "GRP008",
+        "plan_type": "PPO Bronze",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-02-25"
+      },
+      "medical_conditions": ["Osteopenia", "Rheumatoid arthritis", "Corticosteroid use"],
+      "current_medications": ["Methotrexate", "Prednisone", "Calcium Carbonate"],
+      "fracture_risk": "Moderate",
+      "bone_density_t_score": -1.8,
+      "risk_factors": ["Long-term steroid use", "Inflammatory arthritis", "Family history of osteoporosis"]
+    },
+    {
+      "id": "P009",
+      "name": "William Johnson",
+      "email": "william.johnson@email.com",
+      "dob": "1960-06-12",
+      "phone": "(555) 901-2345",
+      "address": {
+        "street": "654 Pine Ridge",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85001"
+      },
+      "insurance": {
+        "carrier": "Cigna",
+        "member_id": "CIG123456789",
+        "group_number": "GRP009",
+        "plan_type": "PPO Platinum",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-03-01"
+      },
+      "medical_conditions": ["Osteoporosis", "Type 2 diabetes", "Hypertension"],
+      "current_medications": ["Metformin", "Lisinopril", "Risedronate"],
+      "fracture_risk": "High",
+      "bone_density_t_score": -2.5,
+      "recent_fracture": "Left hip fracture (2024-01-15)",
+      "surgery_required": true
+    },
+    {
+      "id": "P010",
+      "name": "Patricia Davis",
+      "email": "patricia.davis@email.com",
+      "dob": "1945-12-08",
+      "phone": "(555) 012-3456",
+      "address": {
+        "street": "789 Oak Boulevard",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30301"
+      },
+      "insurance": {
+        "carrier": "Blue Cross Blue Shield",
+        "member_id": "BCBS654321987",
+        "group_number": "GRP010",
+        "plan_type": "HMO Gold",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-03-05"
+      },
+      "medical_conditions": ["Severe Osteoporosis", "Multiple vertebral fractures", "Kyphosis"],
+      "current_medications": ["Forteo", "Calcium Carbonate", "Vitamin D3"],
+      "fracture_risk": "Very High",
+      "bone_density_t_score": -3.5,
+      "previous_fractures": ["T12 vertebral fracture (2023)", "L1 vertebral fracture (2022)", "Right hip fracture (2021)"],
+      "specialty_medication": "Forteo (teriparatide) - 18 months remaining"
+    },
+    {
+      "id": "P011",
+      "name": "John Smith",
+      "email": "hypertension.demo@insurfetch.com",
+      "dob": "1970-05-15",
+      "phone": "(555) 111-2222",
+      "address": {
+        "street": "456 Hypertension Lane",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101"
+      },
+      "insurance": {
+        "carrier": "Anthem Blue Cross Blue Shield",
+        "member_id": "ABC111222333",
+        "group_number": "GRP011",
+        "plan_type": "PPO Gold",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-03-01"
+      },
+      "medical_conditions": ["Hypertension", "Hyperlipidemia", "Obesity", "Family history of heart disease"],
+      "current_medications": ["Lisinopril", "Atorvastatin", "Metformin"],
+      "fracture_risk": "Low",
+      "primary_condition": "Hypertension Management",
+      "blood_pressure": "145/92",
+      "last_a1c": "7.2",
+      "cholesterol_total": "220"
+    },
+    {
+      "id": "P012",
+      "name": "Maria Garcia",
+      "email": "ankle.fracture@insurfetch.com",
+      "dob": "1985-08-22",
+      "phone": "(555) 333-4444",
+      "address": {
+        "street": "789 Fracture Street",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108"
+      },
+      "insurance": {
+        "carrier": "UnitedHealthcare",
+        "member_id": "UHC444555666",
+        "group_number": "GRP012",
+        "plan_type": "HMO Silver",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31"
+      },
+      "consent": {
+        "data_sharing": true,
+        "insurance_access": true,
+        "prescription_verification": true,
+        "consent_date": "2024-03-05"
+      },
+      "medical_conditions": ["Ankle fracture", "Osteopenia", "Previous sports injury", "Moderate fracture risk"],
+      "current_medications": ["Calcium Carbonate", "Vitamin D3", "Ibuprofen"],
+      "fracture_risk": "Moderate",
+      "primary_condition": "Ankle Fracture Recovery",
+      "recent_injury": "Right ankle fracture (2024-03-10)",
+      "surgery_required": false,
+      "cast_removal_date": "2024-04-15",
+      "bone_density_t_score": -1.5
+    }
+  ]
+}
